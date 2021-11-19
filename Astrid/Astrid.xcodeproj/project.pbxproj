@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16D2068F2747EF3800837D67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D2068E2747EF3800837D67 /* AppDelegate.swift */; };
+		16D206912747EF3900837D67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D206902747EF3900837D67 /* SceneDelegate.swift */; };
+		16D206932747EF3900837D67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D206922747EF3900837D67 /* ViewController.swift */; };
+		16D206962747EF3900837D67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D206942747EF3900837D67 /* Main.storyboard */; };
+		16D206982747EF3B00837D67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D206972747EF3B00837D67 /* Assets.xcassets */; };
+		16D2069B2747EF3B00837D67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D206992747EF3B00837D67 /* LaunchScreen.storyboard */; };
+		16D206A62747EF3B00837D67 /* AstridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D206A52747EF3B00837D67 /* AstridTests.swift */; };
+		16D206B02747EF3B00837D67 /* AstridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D206AF2747EF3B00837D67 /* AstridUITests.swift */; };
+		16D206B22747EF3B00837D67 /* AstridUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D206B12747EF3B00837D67 /* AstridUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16D206A22747EF3B00837D67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16D206832747EF3800837D67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16D2068A2747EF3800837D67;
+			remoteInfo = Astrid;
+		};
+		16D206AC2747EF3B00837D67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16D206832747EF3800837D67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16D2068A2747EF3800837D67;
+			remoteInfo = Astrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16D2068B2747EF3800837D67 /* Astrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D2068E2747EF3800837D67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16D206902747EF3900837D67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		16D206922747EF3900837D67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16D206952747EF3900837D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16D206972747EF3B00837D67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16D2069A2747EF3B00837D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16D2069C2747EF3B00837D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D206A12747EF3B00837D67 /* AstridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D206A52747EF3B00837D67 /* AstridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstridTests.swift; sourceTree = "<group>"; };
+		16D206AB2747EF3B00837D67 /* AstridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D206AF2747EF3B00837D67 /* AstridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstridUITests.swift; sourceTree = "<group>"; };
+		16D206B12747EF3B00837D67 /* AstridUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstridUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16D206882747EF3800837D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D2069E2747EF3B00837D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D206A82747EF3B00837D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16D206822747EF3800837D67 = {
+			isa = PBXGroup;
+			children = (
+				16D2068D2747EF3800837D67 /* Astrid */,
+				16D206A42747EF3B00837D67 /* AstridTests */,
+				16D206AE2747EF3B00837D67 /* AstridUITests */,
+				16D2068C2747EF3800837D67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16D2068C2747EF3800837D67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16D2068B2747EF3800837D67 /* Astrid.app */,
+				16D206A12747EF3B00837D67 /* AstridTests.xctest */,
+				16D206AB2747EF3B00837D67 /* AstridUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16D2068D2747EF3800837D67 /* Astrid */ = {
+			isa = PBXGroup;
+			children = (
+				16D2068E2747EF3800837D67 /* AppDelegate.swift */,
+				16D206902747EF3900837D67 /* SceneDelegate.swift */,
+				16D206922747EF3900837D67 /* ViewController.swift */,
+				16D206942747EF3900837D67 /* Main.storyboard */,
+				16D206972747EF3B00837D67 /* Assets.xcassets */,
+				16D206992747EF3B00837D67 /* LaunchScreen.storyboard */,
+				16D2069C2747EF3B00837D67 /* Info.plist */,
+			);
+			path = Astrid;
+			sourceTree = "<group>";
+		};
+		16D206A42747EF3B00837D67 /* AstridTests */ = {
+			isa = PBXGroup;
+			children = (
+				16D206A52747EF3B00837D67 /* AstridTests.swift */,
+			);
+			path = AstridTests;
+			sourceTree = "<group>";
+		};
+		16D206AE2747EF3B00837D67 /* AstridUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16D206AF2747EF3B00837D67 /* AstridUITests.swift */,
+				16D206B12747EF3B00837D67 /* AstridUITestsLaunchTests.swift */,
+			);
+			path = AstridUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16D2068A2747EF3800837D67 /* Astrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D206B52747EF3B00837D67 /* Build configuration list for PBXNativeTarget "Astrid" */;
+			buildPhases = (
+				16D206872747EF3800837D67 /* Sources */,
+				16D206882747EF3800837D67 /* Frameworks */,
+				16D206892747EF3800837D67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Astrid;
+			productName = Astrid;
+			productReference = 16D2068B2747EF3800837D67 /* Astrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16D206A02747EF3B00837D67 /* AstridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D206B82747EF3B00837D67 /* Build configuration list for PBXNativeTarget "AstridTests" */;
+			buildPhases = (
+				16D2069D2747EF3B00837D67 /* Sources */,
+				16D2069E2747EF3B00837D67 /* Frameworks */,
+				16D2069F2747EF3B00837D67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16D206A32747EF3B00837D67 /* PBXTargetDependency */,
+			);
+			name = AstridTests;
+			productName = AstridTests;
+			productReference = 16D206A12747EF3B00837D67 /* AstridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16D206AA2747EF3B00837D67 /* AstridUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D206BB2747EF3B00837D67 /* Build configuration list for PBXNativeTarget "AstridUITests" */;
+			buildPhases = (
+				16D206A72747EF3B00837D67 /* Sources */,
+				16D206A82747EF3B00837D67 /* Frameworks */,
+				16D206A92747EF3B00837D67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16D206AD2747EF3B00837D67 /* PBXTargetDependency */,
+			);
+			name = AstridUITests;
+			productName = AstridUITests;
+			productReference = 16D206AB2747EF3B00837D67 /* AstridUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16D206832747EF3800837D67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					16D2068A2747EF3800837D67 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					16D206A02747EF3B00837D67 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 16D2068A2747EF3800837D67;
+					};
+					16D206AA2747EF3B00837D67 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 16D2068A2747EF3800837D67;
+					};
+				};
+			};
+			buildConfigurationList = 16D206862747EF3800837D67 /* Build configuration list for PBXProject "Astrid" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16D206822747EF3800837D67;
+			productRefGroup = 16D2068C2747EF3800837D67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16D2068A2747EF3800837D67 /* Astrid */,
+				16D206A02747EF3B00837D67 /* AstridTests */,
+				16D206AA2747EF3B00837D67 /* AstridUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16D206892747EF3800837D67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D2069B2747EF3B00837D67 /* LaunchScreen.storyboard in Resources */,
+				16D206982747EF3B00837D67 /* Assets.xcassets in Resources */,
+				16D206962747EF3900837D67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D2069F2747EF3B00837D67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D206A92747EF3B00837D67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16D206872747EF3800837D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D206932747EF3900837D67 /* ViewController.swift in Sources */,
+				16D2068F2747EF3800837D67 /* AppDelegate.swift in Sources */,
+				16D206912747EF3900837D67 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D2069D2747EF3B00837D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D206A62747EF3B00837D67 /* AstridTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D206A72747EF3B00837D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D206B02747EF3B00837D67 /* AstridUITests.swift in Sources */,
+				16D206B22747EF3B00837D67 /* AstridUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16D206A32747EF3B00837D67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16D2068A2747EF3800837D67 /* Astrid */;
+			targetProxy = 16D206A22747EF3B00837D67 /* PBXContainerItemProxy */;
+		};
+		16D206AD2747EF3B00837D67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16D2068A2747EF3800837D67 /* Astrid */;
+			targetProxy = 16D206AC2747EF3B00837D67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16D206942747EF3900837D67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16D206952747EF3900837D67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16D206992747EF3B00837D67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16D2069A2747EF3B00837D67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16D206B32747EF3B00837D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16D206B42747EF3B00837D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16D206B62747EF3B00837D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8494FUMTDM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Astrid/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phantomcorp.Astrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16D206B72747EF3B00837D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8494FUMTDM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Astrid/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phantomcorp.Astrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16D206B92747EF3B00837D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8494FUMTDM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phantomcorp.AstridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astrid.app/Astrid";
+			};
+			name = Debug;
+		};
+		16D206BA2747EF3B00837D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8494FUMTDM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phantomcorp.AstridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astrid.app/Astrid";
+			};
+			name = Release;
+		};
+		16D206BC2747EF3B00837D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8494FUMTDM;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phantomcorp.AstridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Astrid;
+			};
+			name = Debug;
+		};
+		16D206BD2747EF3B00837D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8494FUMTDM;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phantomcorp.AstridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Astrid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16D206862747EF3800837D67 /* Build configuration list for PBXProject "Astrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D206B32747EF3B00837D67 /* Debug */,
+				16D206B42747EF3B00837D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16D206B52747EF3B00837D67 /* Build configuration list for PBXNativeTarget "Astrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D206B62747EF3B00837D67 /* Debug */,
+				16D206B72747EF3B00837D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16D206B82747EF3B00837D67 /* Build configuration list for PBXNativeTarget "AstridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D206B92747EF3B00837D67 /* Debug */,
+				16D206BA2747EF3B00837D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16D206BB2747EF3B00837D67 /* Build configuration list for PBXNativeTarget "AstridUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D206BC2747EF3B00837D67 /* Debug */,
+				16D206BD2747EF3B00837D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16D206832747EF3800837D67 /* Project object */;
+}
