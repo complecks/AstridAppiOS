@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		168CAB0F2748A63C00275915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168CAB0E2748A63C00275915 /* AppDelegate.swift */; };
+		168CAB112748A63C00275915 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168CAB102748A63C00275915 /* SceneDelegate.swift */; };
+		168CAB132748A63C00275915 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168CAB122748A63C00275915 /* ViewController.swift */; };
+		168CAB162748A63C00275915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168CAB142748A63C00275915 /* Main.storyboard */; };
+		168CAB182748A63F00275915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168CAB172748A63F00275915 /* Assets.xcassets */; };
+		168CAB1B2748A63F00275915 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168CAB192748A63F00275915 /* LaunchScreen.storyboard */; };
+		168CAB262748A63F00275915 /* AstridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168CAB252748A63F00275915 /* AstridTests.swift */; };
+		168CAB302748A63F00275915 /* AstridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168CAB2F2748A63F00275915 /* AstridUITests.swift */; };
+		168CAB322748A63F00275915 /* AstridUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168CAB312748A63F00275915 /* AstridUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		168CAB222748A63F00275915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 168CAB032748A63C00275915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168CAB0A2748A63C00275915;
+			remoteInfo = Astrid;
+		};
+		168CAB2C2748A63F00275915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 168CAB032748A63C00275915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168CAB0A2748A63C00275915;
+			remoteInfo = Astrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		168CAB0B2748A63C00275915 /* Astrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		168CAB0E2748A63C00275915 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		168CAB102748A63C00275915 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		168CAB122748A63C00275915 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		168CAB152748A63C00275915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		168CAB172748A63F00275915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		168CAB1A2748A63F00275915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		168CAB1C2748A63F00275915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168CAB212748A63F00275915 /* AstridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		168CAB252748A63F00275915 /* AstridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstridTests.swift; sourceTree = "<group>"; };
+		168CAB2B2748A63F00275915 /* AstridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		168CAB2F2748A63F00275915 /* AstridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstridUITests.swift; sourceTree = "<group>"; };
+		168CAB312748A63F00275915 /* AstridUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstridUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		168CAB082748A63C00275915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168CAB1E2748A63F00275915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168CAB282748A63F00275915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		168CAB022748A63C00275915 = {
+			isa = PBXGroup;
+			children = (
+				168CAB0D2748A63C00275915 /* Astrid */,
+				168CAB242748A63F00275915 /* AstridTests */,
+				168CAB2E2748A63F00275915 /* AstridUITests */,
+				168CAB0C2748A63C00275915 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		168CAB0C2748A63C00275915 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				168CAB0B2748A63C00275915 /* Astrid.app */,
+				168CAB212748A63F00275915 /* AstridTests.xctest */,
+				168CAB2B2748A63F00275915 /* AstridUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		168CAB0D2748A63C00275915 /* Astrid */ = {
+			isa = PBXGroup;
+			children = (
+				168CAB0E2748A63C00275915 /* AppDelegate.swift */,
+				168CAB102748A63C00275915 /* SceneDelegate.swift */,
+				168CAB122748A63C00275915 /* ViewController.swift */,
+				168CAB142748A63C00275915 /* Main.storyboard */,
+				168CAB172748A63F00275915 /* Assets.xcassets */,
+				168CAB192748A63F00275915 /* LaunchScreen.storyboard */,
+				168CAB1C2748A63F00275915 /* Info.plist */,
+			);
+			path = Astrid;
+			sourceTree = "<group>";
+		};
+		168CAB242748A63F00275915 /* AstridTests */ = {
+			isa = PBXGroup;
+			children = (
+				168CAB252748A63F00275915 /* AstridTests.swift */,
+			);
+			path = AstridTests;
+			sourceTree = "<group>";
+		};
+		168CAB2E2748A63F00275915 /* AstridUITests */ = {
+			isa = PBXGroup;
+			children = (
+				168CAB2F2748A63F00275915 /* AstridUITests.swift */,
+				168CAB312748A63F00275915 /* AstridUITestsLaunchTests.swift */,
+			);
+			path = AstridUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		168CAB0A2748A63C00275915 /* Astrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168CAB352748A63F00275915 /* Build configuration list for PBXNativeTarget "Astrid" */;
+			buildPhases = (
+				168CAB072748A63C00275915 /* Sources */,
+				168CAB082748A63C00275915 /* Frameworks */,
+				168CAB092748A63C00275915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Astrid;
+			productName = Astrid;
+			productReference = 168CAB0B2748A63C00275915 /* Astrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		168CAB202748A63F00275915 /* AstridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168CAB382748A63F00275915 /* Build configuration list for PBXNativeTarget "AstridTests" */;
+			buildPhases = (
+				168CAB1D2748A63F00275915 /* Sources */,
+				168CAB1E2748A63F00275915 /* Frameworks */,
+				168CAB1F2748A63F00275915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				168CAB232748A63F00275915 /* PBXTargetDependency */,
+			);
+			name = AstridTests;
+			productName = AstridTests;
+			productReference = 168CAB212748A63F00275915 /* AstridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		168CAB2A2748A63F00275915 /* AstridUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168CAB3B2748A63F00275915 /* Build configuration list for PBXNativeTarget "AstridUITests" */;
+			buildPhases = (
+				168CAB272748A63F00275915 /* Sources */,
+				168CAB282748A63F00275915 /* Frameworks */,
+				168CAB292748A63F00275915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				168CAB2D2748A63F00275915 /* PBXTargetDependency */,
+			);
+			name = AstridUITests;
+			productName = AstridUITests;
+			productReference = 168CAB2B2748A63F00275915 /* AstridUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		168CAB032748A63C00275915 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					168CAB0A2748A63C00275915 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					168CAB202748A63F00275915 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 168CAB0A2748A63C00275915;
+					};
+					168CAB2A2748A63F00275915 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 168CAB0A2748A63C00275915;
+					};
+				};
+			};
+			buildConfigurationList = 168CAB062748A63C00275915 /* Build configuration list for PBXProject "Astrid" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 168CAB022748A63C00275915;
+			productRefGroup = 168CAB0C2748A63C00275915 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				168CAB0A2748A63C00275915 /* Astrid */,
+				168CAB202748A63F00275915 /* AstridTests */,
+				168CAB2A2748A63F00275915 /* AstridUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		168CAB092748A63C00275915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168CAB1B2748A63F00275915 /* LaunchScreen.storyboard in Resources */,
+				168CAB182748A63F00275915 /* Assets.xcassets in Resources */,
+				168CAB162748A63C00275915 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168CAB1F2748A63F00275915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168CAB292748A63F00275915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		168CAB072748A63C00275915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168CAB132748A63C00275915 /* ViewController.swift in Sources */,
+				168CAB0F2748A63C00275915 /* AppDelegate.swift in Sources */,
+				168CAB112748A63C00275915 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168CAB1D2748A63F00275915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168CAB262748A63F00275915 /* AstridTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168CAB272748A63F00275915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168CAB302748A63F00275915 /* AstridUITests.swift in Sources */,
+				168CAB322748A63F00275915 /* AstridUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		168CAB232748A63F00275915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168CAB0A2748A63C00275915 /* Astrid */;
+			targetProxy = 168CAB222748A63F00275915 /* PBXContainerItemProxy */;
+		};
+		168CAB2D2748A63F00275915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168CAB0A2748A63C00275915 /* Astrid */;
+			targetProxy = 168CAB2C2748A63F00275915 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		168CAB142748A63C00275915 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				168CAB152748A63C00275915 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		168CAB192748A63F00275915 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				168CAB1A2748A63F00275915 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		168CAB332748A63F00275915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		168CAB342748A63F00275915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		168CAB362748A63F00275915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8494FUMTDM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Astrid/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phantomcorp.Astrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		168CAB372748A63F00275915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8494FUMTDM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Astrid/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phantomcorp.Astrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		168CAB392748A63F00275915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8494FUMTDM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phantomcorp.AstridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astrid.app/Astrid";
+			};
+			name = Debug;
+		};
+		168CAB3A2748A63F00275915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8494FUMTDM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phantomcorp.AstridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astrid.app/Astrid";
+			};
+			name = Release;
+		};
+		168CAB3C2748A63F00275915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8494FUMTDM;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phantomcorp.AstridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Astrid;
+			};
+			name = Debug;
+		};
+		168CAB3D2748A63F00275915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8494FUMTDM;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phantomcorp.AstridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Astrid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		168CAB062748A63C00275915 /* Build configuration list for PBXProject "Astrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168CAB332748A63F00275915 /* Debug */,
+				168CAB342748A63F00275915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168CAB352748A63F00275915 /* Build configuration list for PBXNativeTarget "Astrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168CAB362748A63F00275915 /* Debug */,
+				168CAB372748A63F00275915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168CAB382748A63F00275915 /* Build configuration list for PBXNativeTarget "AstridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168CAB392748A63F00275915 /* Debug */,
+				168CAB3A2748A63F00275915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168CAB3B2748A63F00275915 /* Build configuration list for PBXNativeTarget "AstridUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168CAB3C2748A63F00275915 /* Debug */,
+				168CAB3D2748A63F00275915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 168CAB032748A63C00275915 /* Project object */;
+}
