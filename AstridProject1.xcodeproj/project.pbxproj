@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		357835938CE1FBB17C5FB49C /* Pods_AstridProject1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC3C1930F1FB96D2424839D /* Pods_AstridProject1.framework */; };
+		3DD68EED622AF0B69E8371BD /* Pods_AstridProject1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B48F3F5DEF807029CCBDF2 /* Pods_AstridProject1Tests.framework */; };
+		5EE5DECDDD328F3FD128267E /* Pods_AstridProject1_AstridProject1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234A80B45BB1DF292792F3EA /* Pods_AstridProject1_AstridProject1UITests.framework */; };
+		D672BD822762A9C8009BBE9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D672BD812762A9C8009BBE9C /* AppDelegate.swift */; };
+		D672BD842762A9C8009BBE9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D672BD832762A9C8009BBE9C /* SceneDelegate.swift */; };
+		D672BD862762A9C8009BBE9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D672BD852762A9C8009BBE9C /* ViewController.swift */; };
+		D672BD892762A9C8009BBE9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D672BD872762A9C8009BBE9C /* Main.storyboard */; };
+		D672BD8B2762A9C9009BBE9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D672BD8A2762A9C9009BBE9C /* Assets.xcassets */; };
+		D672BD8E2762A9C9009BBE9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D672BD8C2762A9C9009BBE9C /* LaunchScreen.storyboard */; };
+		D672BD992762A9CA009BBE9C /* AstridProject1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D672BD982762A9CA009BBE9C /* AstridProject1Tests.swift */; };
+		D672BDA42762A9CA009BBE9C /* AstridProject1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D672BDA32762A9CA009BBE9C /* AstridProject1UITests.swift */; };
+		D69A87852773DB8D00501AA7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D69A87842773DB8C00501AA7 /* GoogleService-Info.plist */; };
+		D6F2E422278270790045D48C /* CV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F2E421278270790045D48C /* CV2.swift */; };
+		D6FBB23E277A668E00BF3CC3 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FBB23D277A668E00BF3CC3 /* ViewController2.swift */; };
+		D6FBB244277E334600BF3CC3 /* TTNormsPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6FBB240277E334600BF3CC3 /* TTNormsPro-Light.ttf */; };
+		D6FBB245277E334600BF3CC3 /* TTNormsPro-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6FBB241277E334600BF3CC3 /* TTNormsPro-ExtraBold.ttf */; };
+		D6FBB246277E334600BF3CC3 /* TTNormsPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6FBB242277E334600BF3CC3 /* TTNormsPro-Medium.ttf */; };
+		D6FBB247277E334600BF3CC3 /* TTNormsPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6FBB243277E334600BF3CC3 /* TTNormsPro-Regular.ttf */; };
+		D6FBB249277E368C00BF3CC3 /* TTNormsPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6FBB248277E368C00BF3CC3 /* TTNormsPro-Bold.ttf */; };
+		D6FBB24B277E3CB300BF3CC3 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FBB24A277E3CB300BF3CC3 /* NewsCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D672BD952762A9CA009BBE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D672BD762762A9C8009BBE9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D672BD7D2762A9C8009BBE9C;
+			remoteInfo = AstridProject1;
+		};
+		D672BDA02762A9CA009BBE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D672BD762762A9C8009BBE9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D672BD7D2762A9C8009BBE9C;
+			remoteInfo = AstridProject1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		234A80B45BB1DF292792F3EA /* Pods_AstridProject1_AstridProject1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstridProject1_AstridProject1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		273635BF222D1BF23883FA66 /* Pods-AstridProject1-AstridProject1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstridProject1-AstridProject1UITests.release.xcconfig"; path = "Target Support Files/Pods-AstridProject1-AstridProject1UITests/Pods-AstridProject1-AstridProject1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		2F35B32167D3C3514DB93EB7 /* Pods-AstridProject1-AstridProject1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstridProject1-AstridProject1UITests.debug.xcconfig"; path = "Target Support Files/Pods-AstridProject1-AstridProject1UITests/Pods-AstridProject1-AstridProject1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		382950161032B7DF9214AD6B /* Pods-AstridProject1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstridProject1Tests.release.xcconfig"; path = "Target Support Files/Pods-AstridProject1Tests/Pods-AstridProject1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		383F4616DBDF2AF472BA17AC /* Pods-AstridProject1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstridProject1.debug.xcconfig"; path = "Target Support Files/Pods-AstridProject1/Pods-AstridProject1.debug.xcconfig"; sourceTree = "<group>"; };
+		3FC368C1804FCE5FB4B3C62A /* Pods-AstridProject1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstridProject1.release.xcconfig"; path = "Target Support Files/Pods-AstridProject1/Pods-AstridProject1.release.xcconfig"; sourceTree = "<group>"; };
+		736CC4C66D40B7E4AF18F361 /* Pods-AstridProject1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstridProject1Tests.debug.xcconfig"; path = "Target Support Files/Pods-AstridProject1Tests/Pods-AstridProject1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		84B48F3F5DEF807029CCBDF2 /* Pods_AstridProject1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstridProject1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC3C1930F1FB96D2424839D /* Pods_AstridProject1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstridProject1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D672BD7E2762A9C8009BBE9C /* AstridProject1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstridProject1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D672BD812762A9C8009BBE9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D672BD832762A9C8009BBE9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D672BD852762A9C8009BBE9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D672BD882762A9C8009BBE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D672BD8A2762A9C9009BBE9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D672BD8D2762A9C9009BBE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D672BD8F2762A9C9009BBE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D672BD942762A9CA009BBE9C /* AstridProject1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstridProject1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D672BD982762A9CA009BBE9C /* AstridProject1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstridProject1Tests.swift; sourceTree = "<group>"; };
+		D672BD9A2762A9CA009BBE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D672BD9F2762A9CA009BBE9C /* AstridProject1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstridProject1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D672BDA32762A9CA009BBE9C /* AstridProject1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstridProject1UITests.swift; sourceTree = "<group>"; };
+		D672BDA52762A9CA009BBE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69A87842773DB8C00501AA7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D6F2E421278270790045D48C /* CV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV2.swift; sourceTree = "<group>"; };
+		D6FBB23D277A668E00BF3CC3 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		D6FBB240277E334600BF3CC3 /* TTNormsPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNormsPro-Light.ttf"; sourceTree = "<group>"; };
+		D6FBB241277E334600BF3CC3 /* TTNormsPro-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNormsPro-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D6FBB242277E334600BF3CC3 /* TTNormsPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNormsPro-Medium.ttf"; sourceTree = "<group>"; };
+		D6FBB243277E334600BF3CC3 /* TTNormsPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNormsPro-Regular.ttf"; sourceTree = "<group>"; };
+		D6FBB248277E368C00BF3CC3 /* TTNormsPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNormsPro-Bold.ttf"; sourceTree = "<group>"; };
+		D6FBB24A277E3CB300BF3CC3 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D672BD7B2762A9C8009BBE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357835938CE1FBB17C5FB49C /* Pods_AstridProject1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D672BD912762A9CA009BBE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD68EED622AF0B69E8371BD /* Pods_AstridProject1Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D672BD9C2762A9CA009BBE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE5DECDDD328F3FD128267E /* Pods_AstridProject1_AstridProject1UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0FE0B15B405A93514EF9190 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				383F4616DBDF2AF472BA17AC /* Pods-AstridProject1.debug.xcconfig */,
+				3FC368C1804FCE5FB4B3C62A /* Pods-AstridProject1.release.xcconfig */,
+				2F35B32167D3C3514DB93EB7 /* Pods-AstridProject1-AstridProject1UITests.debug.xcconfig */,
+				273635BF222D1BF23883FA66 /* Pods-AstridProject1-AstridProject1UITests.release.xcconfig */,
+				736CC4C66D40B7E4AF18F361 /* Pods-AstridProject1Tests.debug.xcconfig */,
+				382950161032B7DF9214AD6B /* Pods-AstridProject1Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D672BD752762A9C8009BBE9C = {
+			isa = PBXGroup;
+			children = (
+				D672BD802762A9C8009BBE9C /* AstridProject1 */,
+				D672BD972762A9CA009BBE9C /* AstridProject1Tests */,
+				D672BDA22762A9CA009BBE9C /* AstridProject1UITests */,
+				D672BD7F2762A9C8009BBE9C /* Products */,
+				A0FE0B15B405A93514EF9190 /* Pods */,
+				FE38CC59DA4AB3DA6365FC83 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D672BD7F2762A9C8009BBE9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D672BD7E2762A9C8009BBE9C /* AstridProject1.app */,
+				D672BD942762A9CA009BBE9C /* AstridProject1Tests.xctest */,
+				D672BD9F2762A9CA009BBE9C /* AstridProject1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D672BD802762A9C8009BBE9C /* AstridProject1 */ = {
+			isa = PBXGroup;
+			children = (
+				D6FBB23F277E333400BF3CC3 /* Fonts */,
+				D69A87842773DB8C00501AA7 /* GoogleService-Info.plist */,
+				D672BD812762A9C8009BBE9C /* AppDelegate.swift */,
+				D672BD832762A9C8009BBE9C /* SceneDelegate.swift */,
+				D672BD852762A9C8009BBE9C /* ViewController.swift */,
+				D672BD872762A9C8009BBE9C /* Main.storyboard */,
+				D6F2E421278270790045D48C /* CV2.swift */,
+				D6FBB24A277E3CB300BF3CC3 /* NewsCell.swift */,
+				D6FBB23D277A668E00BF3CC3 /* ViewController2.swift */,
+				D672BD8A2762A9C9009BBE9C /* Assets.xcassets */,
+				D672BD8C2762A9C9009BBE9C /* LaunchScreen.storyboard */,
+				D672BD8F2762A9C9009BBE9C /* Info.plist */,
+			);
+			path = AstridProject1;
+			sourceTree = "<group>";
+		};
+		D672BD972762A9CA009BBE9C /* AstridProject1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D672BD982762A9CA009BBE9C /* AstridProject1Tests.swift */,
+				D672BD9A2762A9CA009BBE9C /* Info.plist */,
+			);
+			path = AstridProject1Tests;
+			sourceTree = "<group>";
+		};
+		D672BDA22762A9CA009BBE9C /* AstridProject1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D672BDA32762A9CA009BBE9C /* AstridProject1UITests.swift */,
+				D672BDA52762A9CA009BBE9C /* Info.plist */,
+			);
+			path = AstridProject1UITests;
+			sourceTree = "<group>";
+		};
+		D6FBB23F277E333400BF3CC3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D6FBB241277E334600BF3CC3 /* TTNormsPro-ExtraBold.ttf */,
+				D6FBB240277E334600BF3CC3 /* TTNormsPro-Light.ttf */,
+				D6FBB242277E334600BF3CC3 /* TTNormsPro-Medium.ttf */,
+				D6FBB243277E334600BF3CC3 /* TTNormsPro-Regular.ttf */,
+				D6FBB248277E368C00BF3CC3 /* TTNormsPro-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FE38CC59DA4AB3DA6365FC83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEC3C1930F1FB96D2424839D /* Pods_AstridProject1.framework */,
+				234A80B45BB1DF292792F3EA /* Pods_AstridProject1_AstridProject1UITests.framework */,
+				84B48F3F5DEF807029CCBDF2 /* Pods_AstridProject1Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D672BD7D2762A9C8009BBE9C /* AstridProject1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D672BDA82762A9CA009BBE9C /* Build configuration list for PBXNativeTarget "AstridProject1" */;
+			buildPhases = (
+				5FA07B60A9EE2D240A9554C8 /* [CP] Check Pods Manifest.lock */,
+				D672BD7A2762A9C8009BBE9C /* Sources */,
+				D672BD7B2762A9C8009BBE9C /* Frameworks */,
+				D672BD7C2762A9C8009BBE9C /* Resources */,
+				167C723E5B33A4F9F2058741 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstridProject1;
+			productName = AstridProject1;
+			productReference = D672BD7E2762A9C8009BBE9C /* AstridProject1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D672BD932762A9CA009BBE9C /* AstridProject1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D672BDAB2762A9CA009BBE9C /* Build configuration list for PBXNativeTarget "AstridProject1Tests" */;
+			buildPhases = (
+				21FE136124E7400378DA051A /* [CP] Check Pods Manifest.lock */,
+				D672BD902762A9CA009BBE9C /* Sources */,
+				D672BD912762A9CA009BBE9C /* Frameworks */,
+				D672BD922762A9CA009BBE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D672BD962762A9CA009BBE9C /* PBXTargetDependency */,
+			);
+			name = AstridProject1Tests;
+			productName = AstridProject1Tests;
+			productReference = D672BD942762A9CA009BBE9C /* AstridProject1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D672BD9E2762A9CA009BBE9C /* AstridProject1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D672BDAE2762A9CA009BBE9C /* Build configuration list for PBXNativeTarget "AstridProject1UITests" */;
+			buildPhases = (
+				4A6F1A3238F856149D92006B /* [CP] Check Pods Manifest.lock */,
+				D672BD9B2762A9CA009BBE9C /* Sources */,
+				D672BD9C2762A9CA009BBE9C /* Frameworks */,
+				D672BD9D2762A9CA009BBE9C /* Resources */,
+				6926CA50EE033E85DA1CB383 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D672BDA12762A9CA009BBE9C /* PBXTargetDependency */,
+			);
+			name = AstridProject1UITests;
+			productName = AstridProject1UITests;
+			productReference = D672BD9F2762A9CA009BBE9C /* AstridProject1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D672BD762762A9C8009BBE9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D672BD7D2762A9C8009BBE9C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D672BD932762A9CA009BBE9C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D672BD7D2762A9C8009BBE9C;
+					};
+					D672BD9E2762A9CA009BBE9C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D672BD7D2762A9C8009BBE9C;
+					};
+				};
+			};
+			buildConfigurationList = D672BD792762A9C8009BBE9C /* Build configuration list for PBXProject "AstridProject1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D672BD752762A9C8009BBE9C;
+			productRefGroup = D672BD7F2762A9C8009BBE9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D672BD7D2762A9C8009BBE9C /* AstridProject1 */,
+				D672BD932762A9CA009BBE9C /* AstridProject1Tests */,
+				D672BD9E2762A9CA009BBE9C /* AstridProject1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D672BD7C2762A9C8009BBE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D672BD8E2762A9C9009BBE9C /* LaunchScreen.storyboard in Resources */,
+				D6FBB247277E334600BF3CC3 /* TTNormsPro-Regular.ttf in Resources */,
+				D6FBB244277E334600BF3CC3 /* TTNormsPro-Light.ttf in Resources */,
+				D672BD8B2762A9C9009BBE9C /* Assets.xcassets in Resources */,
+				D672BD892762A9C8009BBE9C /* Main.storyboard in Resources */,
+				D6FBB246277E334600BF3CC3 /* TTNormsPro-Medium.ttf in Resources */,
+				D6FBB245277E334600BF3CC3 /* TTNormsPro-ExtraBold.ttf in Resources */,
+				D6FBB249277E368C00BF3CC3 /* TTNormsPro-Bold.ttf in Resources */,
+				D69A87852773DB8D00501AA7 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D672BD922762A9CA009BBE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D672BD9D2762A9CA009BBE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		167C723E5B33A4F9F2058741 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstridProject1/Pods-AstridProject1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstridProject1/Pods-AstridProject1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AstridProject1/Pods-AstridProject1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21FE136124E7400378DA051A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AstridProject1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A6F1A3238F856149D92006B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AstridProject1-AstridProject1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FA07B60A9EE2D240A9554C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AstridProject1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6926CA50EE033E85DA1CB383 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstridProject1-AstridProject1UITests/Pods-AstridProject1-AstridProject1UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstridProject1-AstridProject1UITests/Pods-AstridProject1-AstridProject1UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AstridProject1-AstridProject1UITests/Pods-AstridProject1-AstridProject1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D672BD7A2762A9C8009BBE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D672BD862762A9C8009BBE9C /* ViewController.swift in Sources */,
+				D6FBB23E277A668E00BF3CC3 /* ViewController2.swift in Sources */,
+				D672BD822762A9C8009BBE9C /* AppDelegate.swift in Sources */,
+				D672BD842762A9C8009BBE9C /* SceneDelegate.swift in Sources */,
+				D6F2E422278270790045D48C /* CV2.swift in Sources */,
+				D6FBB24B277E3CB300BF3CC3 /* NewsCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D672BD902762A9CA009BBE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D672BD992762A9CA009BBE9C /* AstridProject1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D672BD9B2762A9CA009BBE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D672BDA42762A9CA009BBE9C /* AstridProject1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D672BD962762A9CA009BBE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D672BD7D2762A9C8009BBE9C /* AstridProject1 */;
+			targetProxy = D672BD952762A9CA009BBE9C /* PBXContainerItemProxy */;
+		};
+		D672BDA12762A9CA009BBE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D672BD7D2762A9C8009BBE9C /* AstridProject1 */;
+			targetProxy = D672BDA02762A9CA009BBE9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D672BD872762A9C8009BBE9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D672BD882762A9C8009BBE9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D672BD8C2762A9C9009BBE9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D672BD8D2762A9C9009BBE9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D672BDA62762A9CA009BBE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D672BDA72762A9CA009BBE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D672BDA92762A9CA009BBE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 383F4616DBDF2AF472BA17AC /* Pods-AstridProject1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M55CBU2939;
+				INFOPLIST_FILE = AstridProject1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Reboot.AstridProject1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D672BDAA2762A9CA009BBE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC368C1804FCE5FB4B3C62A /* Pods-AstridProject1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M55CBU2939;
+				INFOPLIST_FILE = AstridProject1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Reboot.AstridProject1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D672BDAC2762A9CA009BBE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 736CC4C66D40B7E4AF18F361 /* Pods-AstridProject1Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M55CBU2939;
+				INFOPLIST_FILE = AstridProject1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Reboot.AstridProject1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstridProject1.app/AstridProject1";
+			};
+			name = Debug;
+		};
+		D672BDAD2762A9CA009BBE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382950161032B7DF9214AD6B /* Pods-AstridProject1Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M55CBU2939;
+				INFOPLIST_FILE = AstridProject1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Reboot.AstridProject1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstridProject1.app/AstridProject1";
+			};
+			name = Release;
+		};
+		D672BDAF2762A9CA009BBE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F35B32167D3C3514DB93EB7 /* Pods-AstridProject1-AstridProject1UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M55CBU2939;
+				INFOPLIST_FILE = AstridProject1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Reboot.AstridProject1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AstridProject1;
+			};
+			name = Debug;
+		};
+		D672BDB02762A9CA009BBE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273635BF222D1BF23883FA66 /* Pods-AstridProject1-AstridProject1UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M55CBU2939;
+				INFOPLIST_FILE = AstridProject1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Reboot.AstridProject1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AstridProject1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D672BD792762A9C8009BBE9C /* Build configuration list for PBXProject "AstridProject1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D672BDA62762A9CA009BBE9C /* Debug */,
+				D672BDA72762A9CA009BBE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D672BDA82762A9CA009BBE9C /* Build configuration list for PBXNativeTarget "AstridProject1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D672BDA92762A9CA009BBE9C /* Debug */,
+				D672BDAA2762A9CA009BBE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D672BDAB2762A9CA009BBE9C /* Build configuration list for PBXNativeTarget "AstridProject1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D672BDAC2762A9CA009BBE9C /* Debug */,
+				D672BDAD2762A9CA009BBE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D672BDAE2762A9CA009BBE9C /* Build configuration list for PBXNativeTarget "AstridProject1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D672BDAF2762A9CA009BBE9C /* Debug */,
+				D672BDB02762A9CA009BBE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D672BD762762A9C8009BBE9C /* Project object */;
+}
