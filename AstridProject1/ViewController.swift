@@ -25,7 +25,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             
             
         if (collectionView == collectionV){
-            return 4
+            return 5
         }
         
         
@@ -178,7 +178,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         
         
-        database.child("Article1").observeSingleEvent(of: .value, with: {snapshot in
+        database.child("Article0").observeSingleEvent(of: .value, with: {snapshot in
         
             guard let value = snapshot.value as? [String : String]
              else {
@@ -201,6 +201,34 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             self.collectionV.reloadData()
             
             
+            
+            
+        })
+        
+        database.child("Article1").observeSingleEvent(of: .value, with: {snapshot in
+        
+            guard let value = snapshot.value as? [String : String]
+             else {
+                
+                return
+            }
+            
+            
+            self.defaults.setValue(value, forKey: "DictValue") //Saved the Dictionary in user default
+            
+            
+            
+            
+            
+            print("this is the title: ")
+            print(value["title"]!)
+            self.titleArr.append(value["title"]!)
+            self.imgArr.append(value["image"]!)
+            self.linkArr.append(value["link"]!)
+           
+            
+        
+            self.collectionV.reloadData()
             
             
         })
@@ -226,42 +254,14 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             self.imgArr.append(value["image"]!)
             self.linkArr.append(value["link"]!)
            
-            
         
+            
             self.collectionV.reloadData()
             
             
         })
         
         database.child("Article3").observeSingleEvent(of: .value, with: {snapshot in
-        
-            guard let value = snapshot.value as? [String : String]
-             else {
-                
-                return
-            }
-            
-            
-            self.defaults.setValue(value, forKey: "DictValue") //Saved the Dictionary in user default
-            
-            
-            
-            
-            
-            print("this is the title: ")
-            print(value["title"]!)
-            self.titleArr.append(value["title"]!)
-            self.imgArr.append(value["image"]!)
-            self.linkArr.append(value["link"]!)
-           
-        
-            
-            self.collectionV.reloadData()
-            
-            
-        })
-        
-        database.child("Article4").observeSingleEvent(of: .value, with: {snapshot in
         
             guard let value = snapshot.value as? [String : String]
              else {
@@ -290,7 +290,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             
         })
         
-        database.child("Article5").observeSingleEvent(of: .value, with: {snapshot in
+        database.child("Article4").observeSingleEvent(of: .value, with: {snapshot in
         
             guard let value = snapshot.value as? [String : String]
              else {

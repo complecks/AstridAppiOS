@@ -19,6 +19,8 @@
 		D672BD992762A9CA009BBE9C /* AstridProject1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D672BD982762A9CA009BBE9C /* AstridProject1Tests.swift */; };
 		D672BDA42762A9CA009BBE9C /* AstridProject1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D672BDA32762A9CA009BBE9C /* AstridProject1UITests.swift */; };
 		D69A87852773DB8D00501AA7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D69A87842773DB8C00501AA7 /* GoogleService-Info.plist */; };
+		D6D5F0C027878F420088CBB8 /* ViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D5F0BF27878F420088CBB8 /* ViewControllerTest.swift */; };
+		D6D5F0C2278794F80088CBB8 /* NewsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D5F0C1278794F80088CBB8 /* NewsPage.swift */; };
 		D6F2E422278270790045D48C /* CV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F2E421278270790045D48C /* CV2.swift */; };
 		D6FBB23E277A668E00BF3CC3 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FBB23D277A668E00BF3CC3 /* ViewController2.swift */; };
 		D6FBB244277E334600BF3CC3 /* TTNormsPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6FBB240277E334600BF3CC3 /* TTNormsPro-Light.ttf */; };
@@ -71,6 +73,8 @@
 		D672BDA32762A9CA009BBE9C /* AstridProject1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstridProject1UITests.swift; sourceTree = "<group>"; };
 		D672BDA52762A9CA009BBE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D69A87842773DB8C00501AA7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D6D5F0BF27878F420088CBB8 /* ViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTest.swift; sourceTree = "<group>"; };
+		D6D5F0C1278794F80088CBB8 /* NewsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPage.swift; sourceTree = "<group>"; };
 		D6F2E421278270790045D48C /* CV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV2.swift; sourceTree = "<group>"; };
 		D6FBB23D277A668E00BF3CC3 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		D6FBB240277E334600BF3CC3 /* TTNormsPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNormsPro-Light.ttf"; sourceTree = "<group>"; };
@@ -152,7 +156,9 @@
 				D672BD812762A9C8009BBE9C /* AppDelegate.swift */,
 				D672BD832762A9C8009BBE9C /* SceneDelegate.swift */,
 				D672BD852762A9C8009BBE9C /* ViewController.swift */,
+				D6D5F0BF27878F420088CBB8 /* ViewControllerTest.swift */,
 				D672BD872762A9C8009BBE9C /* Main.storyboard */,
+				D6D5F0C1278794F80088CBB8 /* NewsPage.swift */,
 				D6F2E421278270790045D48C /* CV2.swift */,
 				D6FBB24A277E3CB300BF3CC3 /* NewsCell.swift */,
 				D6FBB23D277A668E00BF3CC3 /* ViewController2.swift */,
@@ -449,6 +455,8 @@
 			files = (
 				D672BD862762A9C8009BBE9C /* ViewController.swift in Sources */,
 				D6FBB23E277A668E00BF3CC3 /* ViewController2.swift in Sources */,
+				D6D5F0C027878F420088CBB8 /* ViewControllerTest.swift in Sources */,
+				D6D5F0C2278794F80088CBB8 /* NewsPage.swift in Sources */,
 				D672BD822762A9C8009BBE9C /* AppDelegate.swift in Sources */,
 				D672BD842762A9C8009BBE9C /* SceneDelegate.swift in Sources */,
 				D6F2E422278270790045D48C /* CV2.swift in Sources */,

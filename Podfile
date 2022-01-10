@@ -9,8 +9,9 @@ target 'AstridProject1' do
 	pod 'SwiftSoup'
 	pod 'Firebase/Core'
 	pod 'Firebase/Database'
-	pod 'SDWebImage'
-
+  pod 'SDWebImage'
+	pod 'LayoutHelper'
+  
   target 'AstridProject1Tests' do
     inherit! :search_paths
     # Pods for testing

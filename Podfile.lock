@@ -78,6 +78,7 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (7.4.3):
     - GoogleUtilities/Logger
+  - LayoutHelper (1.0.0)
   - leveldb-library (1.22.1)
   - nanopb (2.30908.0):
     - nanopb/decode (= 2.30908.0)
@@ -93,6 +94,7 @@ PODS:
 DEPENDENCIES:
   - Firebase/Core
   - Firebase/Database
+  - LayoutHelper
   - SDWebImage
   - SwiftSoup
 
@@ -107,6 +109,7 @@ SPEC REPOS:
     - GoogleAppMeasurement
     - GoogleDataTransport
     - GoogleUtilities
+    - LayoutHelper
     - leveldb-library
     - nanopb
     - PromisesObjC
@@ -123,12 +126,13 @@ SPEC CHECKSUMS:
   GoogleAppMeasurement: b52eafc9dff542d580700e708216568bd2fbf168
   GoogleDataTransport: 04c3e9a480bbcaa2ec3f5d27f1cdeb6a92f20c8d
   GoogleUtilities: 45dbb24a7f351d69d0a601482b39ad6c32e30dab
+  LayoutHelper: fd809f52e0ae583f7576bf5d2af8248b5c3ec4d0
   leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
   SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
   SwiftSoup: d5b9645498f8d09fdc5f96b9c70b5858099fd411
 
-PODFILE CHECKSUM: 7275707bf80390ea0cd4eb7608a05c666a9828c4
+PODFILE CHECKSUM: 2c1de50b2c2515095a96dbe964c7565ac3983881
 
 COCOAPODS: 1.10.1
