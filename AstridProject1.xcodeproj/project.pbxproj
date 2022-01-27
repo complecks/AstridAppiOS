@@ -10,6 +10,7 @@
 		357835938CE1FBB17C5FB49C /* Pods_AstridProject1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC3C1930F1FB96D2424839D /* Pods_AstridProject1.framework */; };
 		3DD68EED622AF0B69E8371BD /* Pods_AstridProject1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B48F3F5DEF807029CCBDF2 /* Pods_AstridProject1Tests.framework */; };
 		5EE5DECDDD328F3FD128267E /* Pods_AstridProject1_AstridProject1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234A80B45BB1DF292792F3EA /* Pods_AstridProject1_AstridProject1UITests.framework */; };
+		7479728D279CABDB001810B9 /* Bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 7479728C279CABDB001810B9 /* Bottom.png */; };
 		D672BD822762A9C8009BBE9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D672BD812762A9C8009BBE9C /* AppDelegate.swift */; };
 		D672BD842762A9C8009BBE9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D672BD832762A9C8009BBE9C /* SceneDelegate.swift */; };
 		D672BD862762A9C8009BBE9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D672BD852762A9C8009BBE9C /* ViewController.swift */; };
@@ -56,6 +57,7 @@
 		383F4616DBDF2AF472BA17AC /* Pods-AstridProject1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstridProject1.debug.xcconfig"; path = "Target Support Files/Pods-AstridProject1/Pods-AstridProject1.debug.xcconfig"; sourceTree = "<group>"; };
 		3FC368C1804FCE5FB4B3C62A /* Pods-AstridProject1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstridProject1.release.xcconfig"; path = "Target Support Files/Pods-AstridProject1/Pods-AstridProject1.release.xcconfig"; sourceTree = "<group>"; };
 		736CC4C66D40B7E4AF18F361 /* Pods-AstridProject1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstridProject1Tests.debug.xcconfig"; path = "Target Support Files/Pods-AstridProject1Tests/Pods-AstridProject1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7479728C279CABDB001810B9 /* Bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bottom.png; path = ../../Bottom.png; sourceTree = "<group>"; };
 		84B48F3F5DEF807029CCBDF2 /* Pods_AstridProject1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstridProject1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC3C1930F1FB96D2424839D /* Pods_AstridProject1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstridProject1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D672BD7E2762A9C8009BBE9C /* AstridProject1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstridProject1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,6 +166,7 @@
 				D6FBB23D277A668E00BF3CC3 /* ViewController2.swift */,
 				D672BD8A2762A9C9009BBE9C /* Assets.xcassets */,
 				D672BD8C2762A9C9009BBE9C /* LaunchScreen.storyboard */,
+				7479728C279CABDB001810B9 /* Bottom.png */,
 				D672BD8F2762A9C9009BBE9C /* Info.plist */,
 			);
 			path = AstridProject1;
@@ -325,6 +328,7 @@
 				D6FBB246277E334600BF3CC3 /* TTNormsPro-Medium.ttf in Resources */,
 				D6FBB245277E334600BF3CC3 /* TTNormsPro-ExtraBold.ttf in Resources */,
 				D6FBB249277E368C00BF3CC3 /* TTNormsPro-Bold.ttf in Resources */,
+				7479728D279CABDB001810B9 /* Bottom.png in Resources */,
 				D69A87852773DB8D00501AA7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -640,11 +644,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M55CBU2939;
 				INFOPLIST_FILE = AstridProject1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Reboot.AstridProject1;
+				PRODUCT_BUNDLE_IDENTIFIER = Reboot.AstridiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -660,11 +665,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M55CBU2939;
 				INFOPLIST_FILE = AstridProject1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Reboot.AstridProject1;
+				PRODUCT_BUNDLE_IDENTIFIER = Reboot.AstridiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
