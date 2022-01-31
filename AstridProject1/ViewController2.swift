@@ -14,15 +14,29 @@ class ViewController2: UIViewController {
     let defaults = UserDefaults.standard
     @IBOutlet weak var webview: WKWebView!
     
+    @IBOutlet weak var homeBack: UIButton!
+    @IBOutlet weak var newsBack: UIButton!
     private let database = Database.database().reference()
    
     var test = [String: String]()
+    var newstrue = false
     
     var text: String?
     override func viewDidLoad() {
         super.viewDidLoad()
         if (text != nil){
             webview.load(URLRequest(url: URL(string: text!)!))
+            
+            if(newstrue){
+                homeBack.isHidden = true
+                newsBack.isHidden = false
+            }
+            else{
+                homeBack.isHidden = false
+                newsBack.isHidden = true
+            }
+            
+            
         }
         
         
