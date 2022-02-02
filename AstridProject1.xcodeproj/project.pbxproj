@@ -3,14 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		357835938CE1FBB17C5FB49C /* Pods_AstridProject1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC3C1930F1FB96D2424839D /* Pods_AstridProject1.framework */; };
-		3DD68EED622AF0B69E8371BD /* Pods_AstridProject1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B48F3F5DEF807029CCBDF2 /* Pods_AstridProject1Tests.framework */; };
-		5EE5DECDDD328F3FD128267E /* Pods_AstridProject1_AstridProject1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234A80B45BB1DF292792F3EA /* Pods_AstridProject1_AstridProject1UITests.framework */; };
-		7479728D279CABDB001810B9 /* Bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 7479728C279CABDB001810B9 /* Bottom.png */; };
+		1B1A7455C4EF46FDFF433304 /* Pods_AstridProject1_AstridProject1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0495E265A5E19EB898196C /* Pods_AstridProject1_AstridProject1UITests.framework */; };
+		41ED5A9EBE8CA36E4E7C2A1A /* Pods_AstridProject1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19BBEBE4C3BC6258C988EDB1 /* Pods_AstridProject1.framework */; };
+		7FE9A63E5E4FC99DC987077F /* Pods_AstridProject1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B79A7F0D2A6BDB60E7D887 /* Pods_AstridProject1Tests.framework */; };
+		D6136C05279F9FBE0033A419 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6136C04279F9FBE0033A419 /* GoogleService-Info.plist */; };
+		D63AADED2790CF7E00A7877D /* Bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = D63AADEC2790CF7E00A7877D /* Bottom.png */; };
 		D672BD822762A9C8009BBE9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D672BD812762A9C8009BBE9C /* AppDelegate.swift */; };
 		D672BD842762A9C8009BBE9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D672BD832762A9C8009BBE9C /* SceneDelegate.swift */; };
 		D672BD862762A9C8009BBE9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D672BD852762A9C8009BBE9C /* ViewController.swift */; };
@@ -19,7 +20,8 @@
 		D672BD8E2762A9C9009BBE9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D672BD8C2762A9C9009BBE9C /* LaunchScreen.storyboard */; };
 		D672BD992762A9CA009BBE9C /* AstridProject1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D672BD982762A9CA009BBE9C /* AstridProject1Tests.swift */; };
 		D672BDA42762A9CA009BBE9C /* AstridProject1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D672BDA32762A9CA009BBE9C /* AstridProject1UITests.swift */; };
-		D69A87852773DB8D00501AA7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D69A87842773DB8C00501AA7 /* GoogleService-Info.plist */; };
+		D6A1153127A4AB7E0038D09F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A1153027A4AB7E0038D09F /* MapViewController.swift */; };
+		D6C1D2CD27A6DD4500BB109C /* GuidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C1D2CC27A6DD4500BB109C /* GuidesViewController.swift */; };
 		D6D5F0C027878F420088CBB8 /* ViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D5F0BF27878F420088CBB8 /* ViewControllerTest.swift */; };
 		D6D5F0C2278794F80088CBB8 /* NewsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D5F0C1278794F80088CBB8 /* NewsPage.swift */; };
 		D6F2E422278270790045D48C /* CV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F2E421278270790045D48C /* CV2.swift */; };
@@ -50,16 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		234A80B45BB1DF292792F3EA /* Pods_AstridProject1_AstridProject1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstridProject1_AstridProject1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		273635BF222D1BF23883FA66 /* Pods-AstridProject1-AstridProject1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstridProject1-AstridProject1UITests.release.xcconfig"; path = "Target Support Files/Pods-AstridProject1-AstridProject1UITests/Pods-AstridProject1-AstridProject1UITests.release.xcconfig"; sourceTree = "<group>"; };
-		2F35B32167D3C3514DB93EB7 /* Pods-AstridProject1-AstridProject1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstridProject1-AstridProject1UITests.debug.xcconfig"; path = "Target Support Files/Pods-AstridProject1-AstridProject1UITests/Pods-AstridProject1-AstridProject1UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		382950161032B7DF9214AD6B /* Pods-AstridProject1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstridProject1Tests.release.xcconfig"; path = "Target Support Files/Pods-AstridProject1Tests/Pods-AstridProject1Tests.release.xcconfig"; sourceTree = "<group>"; };
-		383F4616DBDF2AF472BA17AC /* Pods-AstridProject1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstridProject1.debug.xcconfig"; path = "Target Support Files/Pods-AstridProject1/Pods-AstridProject1.debug.xcconfig"; sourceTree = "<group>"; };
-		3FC368C1804FCE5FB4B3C62A /* Pods-AstridProject1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstridProject1.release.xcconfig"; path = "Target Support Files/Pods-AstridProject1/Pods-AstridProject1.release.xcconfig"; sourceTree = "<group>"; };
-		736CC4C66D40B7E4AF18F361 /* Pods-AstridProject1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstridProject1Tests.debug.xcconfig"; path = "Target Support Files/Pods-AstridProject1Tests/Pods-AstridProject1Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7479728C279CABDB001810B9 /* Bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bottom.png; path = ../../Bottom.png; sourceTree = "<group>"; };
-		84B48F3F5DEF807029CCBDF2 /* Pods_AstridProject1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstridProject1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEC3C1930F1FB96D2424839D /* Pods_AstridProject1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstridProject1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19BBEBE4C3BC6258C988EDB1 /* Pods_AstridProject1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstridProject1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BB850E9C10A01080D95233 /* Pods-AstridProject1-AstridProject1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstridProject1-AstridProject1UITests.release.xcconfig"; path = "Target Support Files/Pods-AstridProject1-AstridProject1UITests/Pods-AstridProject1-AstridProject1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		609C6C06E9D55F8A73D6F5E0 /* Pods-AstridProject1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstridProject1Tests.release.xcconfig"; path = "Target Support Files/Pods-AstridProject1Tests/Pods-AstridProject1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7B9D92421BC901E31FD45B41 /* Pods-AstridProject1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstridProject1.release.xcconfig"; path = "Target Support Files/Pods-AstridProject1/Pods-AstridProject1.release.xcconfig"; sourceTree = "<group>"; };
+		8C666F9BDA1862FBB7D903BC /* Pods-AstridProject1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstridProject1.debug.xcconfig"; path = "Target Support Files/Pods-AstridProject1/Pods-AstridProject1.debug.xcconfig"; sourceTree = "<group>"; };
+		AF0495E265A5E19EB898196C /* Pods_AstridProject1_AstridProject1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstridProject1_AstridProject1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6136C04279F9FBE0033A419 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D63AADEC2790CF7E00A7877D /* Bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bottom.png; sourceTree = "<group>"; };
 		D672BD7E2762A9C8009BBE9C /* AstridProject1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstridProject1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D672BD812762A9C8009BBE9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D672BD832762A9C8009BBE9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,7 +74,8 @@
 		D672BD9F2762A9CA009BBE9C /* AstridProject1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstridProject1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D672BDA32762A9CA009BBE9C /* AstridProject1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstridProject1UITests.swift; sourceTree = "<group>"; };
 		D672BDA52762A9CA009BBE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D69A87842773DB8C00501AA7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D6A1153027A4AB7E0038D09F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D6C1D2CC27A6DD4500BB109C /* GuidesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidesViewController.swift; sourceTree = "<group>"; };
 		D6D5F0BF27878F420088CBB8 /* ViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTest.swift; sourceTree = "<group>"; };
 		D6D5F0C1278794F80088CBB8 /* NewsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPage.swift; sourceTree = "<group>"; };
 		D6F2E421278270790045D48C /* CV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV2.swift; sourceTree = "<group>"; };
@@ -85,6 +86,9 @@
 		D6FBB243277E334600BF3CC3 /* TTNormsPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNormsPro-Regular.ttf"; sourceTree = "<group>"; };
 		D6FBB248277E368C00BF3CC3 /* TTNormsPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNormsPro-Bold.ttf"; sourceTree = "<group>"; };
 		D6FBB24A277E3CB300BF3CC3 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		ED3C5FAA034AE87C8ED55264 /* Pods-AstridProject1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstridProject1Tests.debug.xcconfig"; path = "Target Support Files/Pods-AstridProject1Tests/Pods-AstridProject1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3B79A7F0D2A6BDB60E7D887 /* Pods_AstridProject1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstridProject1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8EF38BBCC58024A22322ED /* Pods-AstridProject1-AstridProject1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstridProject1-AstridProject1UITests.debug.xcconfig"; path = "Target Support Files/Pods-AstridProject1-AstridProject1UITests/Pods-AstridProject1-AstridProject1UITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				357835938CE1FBB17C5FB49C /* Pods_AstridProject1.framework in Frameworks */,
+				41ED5A9EBE8CA36E4E7C2A1A /* Pods_AstridProject1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DD68EED622AF0B69E8371BD /* Pods_AstridProject1Tests.framework in Frameworks */,
+				7FE9A63E5E4FC99DC987077F /* Pods_AstridProject1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,35 +112,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EE5DECDDD328F3FD128267E /* Pods_AstridProject1_AstridProject1UITests.framework in Frameworks */,
+				1B1A7455C4EF46FDFF433304 /* Pods_AstridProject1_AstridProject1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A0FE0B15B405A93514EF9190 /* Pods */ = {
+		4C0DDA7B014526DFAF476989 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				383F4616DBDF2AF472BA17AC /* Pods-AstridProject1.debug.xcconfig */,
-				3FC368C1804FCE5FB4B3C62A /* Pods-AstridProject1.release.xcconfig */,
-				2F35B32167D3C3514DB93EB7 /* Pods-AstridProject1-AstridProject1UITests.debug.xcconfig */,
-				273635BF222D1BF23883FA66 /* Pods-AstridProject1-AstridProject1UITests.release.xcconfig */,
-				736CC4C66D40B7E4AF18F361 /* Pods-AstridProject1Tests.debug.xcconfig */,
-				382950161032B7DF9214AD6B /* Pods-AstridProject1Tests.release.xcconfig */,
+				19BBEBE4C3BC6258C988EDB1 /* Pods_AstridProject1.framework */,
+				AF0495E265A5E19EB898196C /* Pods_AstridProject1_AstridProject1UITests.framework */,
+				F3B79A7F0D2A6BDB60E7D887 /* Pods_AstridProject1Tests.framework */,
 			);
-			path = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D672BD752762A9C8009BBE9C = {
 			isa = PBXGroup;
 			children = (
+				D6A1153027A4AB7E0038D09F /* MapViewController.swift */,
 				D672BD802762A9C8009BBE9C /* AstridProject1 */,
 				D672BD972762A9CA009BBE9C /* AstridProject1Tests */,
 				D672BDA22762A9CA009BBE9C /* AstridProject1UITests */,
 				D672BD7F2762A9C8009BBE9C /* Products */,
-				A0FE0B15B405A93514EF9190 /* Pods */,
-				FE38CC59DA4AB3DA6365FC83 /* Frameworks */,
+				FEBDD4EF8AA119893C9BBFC9 /* Pods */,
+				4C0DDA7B014526DFAF476989 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,20 +156,21 @@
 			isa = PBXGroup;
 			children = (
 				D6FBB23F277E333400BF3CC3 /* Fonts */,
-				D69A87842773DB8C00501AA7 /* GoogleService-Info.plist */,
 				D672BD812762A9C8009BBE9C /* AppDelegate.swift */,
 				D672BD832762A9C8009BBE9C /* SceneDelegate.swift */,
 				D672BD852762A9C8009BBE9C /* ViewController.swift */,
 				D6D5F0BF27878F420088CBB8 /* ViewControllerTest.swift */,
 				D672BD872762A9C8009BBE9C /* Main.storyboard */,
+				D6C1D2CC27A6DD4500BB109C /* GuidesViewController.swift */,
+				D63AADEC2790CF7E00A7877D /* Bottom.png */,
 				D6D5F0C1278794F80088CBB8 /* NewsPage.swift */,
 				D6F2E421278270790045D48C /* CV2.swift */,
 				D6FBB24A277E3CB300BF3CC3 /* NewsCell.swift */,
 				D6FBB23D277A668E00BF3CC3 /* ViewController2.swift */,
 				D672BD8A2762A9C9009BBE9C /* Assets.xcassets */,
 				D672BD8C2762A9C9009BBE9C /* LaunchScreen.storyboard */,
-				7479728C279CABDB001810B9 /* Bottom.png */,
 				D672BD8F2762A9C9009BBE9C /* Info.plist */,
+				D6136C04279F9FBE0033A419 /* GoogleService-Info.plist */,
 			);
 			path = AstridProject1;
 			sourceTree = "<group>";
@@ -202,14 +205,18 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		FE38CC59DA4AB3DA6365FC83 /* Frameworks */ = {
+		FEBDD4EF8AA119893C9BBFC9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CEC3C1930F1FB96D2424839D /* Pods_AstridProject1.framework */,
-				234A80B45BB1DF292792F3EA /* Pods_AstridProject1_AstridProject1UITests.framework */,
-				84B48F3F5DEF807029CCBDF2 /* Pods_AstridProject1Tests.framework */,
+				8C666F9BDA1862FBB7D903BC /* Pods-AstridProject1.debug.xcconfig */,
+				7B9D92421BC901E31FD45B41 /* Pods-AstridProject1.release.xcconfig */,
+				FD8EF38BBCC58024A22322ED /* Pods-AstridProject1-AstridProject1UITests.debug.xcconfig */,
+				32BB850E9C10A01080D95233 /* Pods-AstridProject1-AstridProject1UITests.release.xcconfig */,
+				ED3C5FAA034AE87C8ED55264 /* Pods-AstridProject1Tests.debug.xcconfig */,
+				609C6C06E9D55F8A73D6F5E0 /* Pods-AstridProject1Tests.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,11 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D672BDA82762A9CA009BBE9C /* Build configuration list for PBXNativeTarget "AstridProject1" */;
 			buildPhases = (
-				5FA07B60A9EE2D240A9554C8 /* [CP] Check Pods Manifest.lock */,
+				013B96C70CA7AB34DD0DB2F9 /* [CP] Check Pods Manifest.lock */,
 				D672BD7A2762A9C8009BBE9C /* Sources */,
 				D672BD7B2762A9C8009BBE9C /* Frameworks */,
 				D672BD7C2762A9C8009BBE9C /* Resources */,
-				167C723E5B33A4F9F2058741 /* [CP] Embed Pods Frameworks */,
+				46CF615C86BD131F924AA0A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -238,7 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D672BDAB2762A9CA009BBE9C /* Build configuration list for PBXNativeTarget "AstridProject1Tests" */;
 			buildPhases = (
-				21FE136124E7400378DA051A /* [CP] Check Pods Manifest.lock */,
+				335B9BC6F27181C8DEEE4A39 /* [CP] Check Pods Manifest.lock */,
 				D672BD902762A9CA009BBE9C /* Sources */,
 				D672BD912762A9CA009BBE9C /* Frameworks */,
 				D672BD922762A9CA009BBE9C /* Resources */,
@@ -257,11 +264,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D672BDAE2762A9CA009BBE9C /* Build configuration list for PBXNativeTarget "AstridProject1UITests" */;
 			buildPhases = (
-				4A6F1A3238F856149D92006B /* [CP] Check Pods Manifest.lock */,
+				12E615F1B5534D4FA46A7AAA /* [CP] Check Pods Manifest.lock */,
 				D672BD9B2762A9CA009BBE9C /* Sources */,
 				D672BD9C2762A9CA009BBE9C /* Frameworks */,
 				D672BD9D2762A9CA009BBE9C /* Resources */,
-				6926CA50EE033E85DA1CB383 /* [CP] Embed Pods Frameworks */,
+				21CAAA8624D45ED624A47491 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -327,9 +334,9 @@
 				D672BD892762A9C8009BBE9C /* Main.storyboard in Resources */,
 				D6FBB246277E334600BF3CC3 /* TTNormsPro-Medium.ttf in Resources */,
 				D6FBB245277E334600BF3CC3 /* TTNormsPro-ExtraBold.ttf in Resources */,
+				D6136C05279F9FBE0033A419 /* GoogleService-Info.plist in Resources */,
 				D6FBB249277E368C00BF3CC3 /* TTNormsPro-Bold.ttf in Resources */,
-				7479728D279CABDB001810B9 /* Bottom.png in Resources */,
-				D69A87852773DB8D00501AA7 /* GoogleService-Info.plist in Resources */,
+				D63AADED2790CF7E00A7877D /* Bottom.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,68 +357,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		167C723E5B33A4F9F2058741 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AstridProject1/Pods-AstridProject1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AstridProject1/Pods-AstridProject1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AstridProject1/Pods-AstridProject1-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		21FE136124E7400378DA051A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AstridProject1Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4A6F1A3238F856149D92006B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AstridProject1-AstridProject1UITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5FA07B60A9EE2D240A9554C8 /* [CP] Check Pods Manifest.lock */ = {
+		013B96C70CA7AB34DD0DB2F9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -433,7 +379,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6926CA50EE033E85DA1CB383 /* [CP] Embed Pods Frameworks */ = {
+		12E615F1B5534D4FA46A7AAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AstridProject1-AstridProject1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21CAAA8624D45ED624A47491 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -450,6 +418,45 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AstridProject1-AstridProject1UITests/Pods-AstridProject1-AstridProject1UITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		335B9BC6F27181C8DEEE4A39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AstridProject1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46CF615C86BD131F924AA0A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstridProject1/Pods-AstridProject1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstridProject1/Pods-AstridProject1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AstridProject1/Pods-AstridProject1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -461,8 +468,10 @@
 				D6FBB23E277A668E00BF3CC3 /* ViewController2.swift in Sources */,
 				D6D5F0C027878F420088CBB8 /* ViewControllerTest.swift in Sources */,
 				D6D5F0C2278794F80088CBB8 /* NewsPage.swift in Sources */,
+				D6A1153127A4AB7E0038D09F /* MapViewController.swift in Sources */,
 				D672BD822762A9C8009BBE9C /* AppDelegate.swift in Sources */,
 				D672BD842762A9C8009BBE9C /* SceneDelegate.swift in Sources */,
+				D6C1D2CD27A6DD4500BB109C /* GuidesViewController.swift in Sources */,
 				D6F2E422278270790045D48C /* CV2.swift in Sources */,
 				D6FBB24B277E3CB300BF3CC3 /* NewsCell.swift in Sources */,
 			);
@@ -637,19 +646,18 @@
 		};
 		D672BDA92762A9CA009BBE9C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 383F4616DBDF2AF472BA17AC /* Pods-AstridProject1.debug.xcconfig */;
+			baseConfigurationReference = 8C666F9BDA1862FBB7D903BC /* Pods-AstridProject1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M55CBU2939;
 				INFOPLIST_FILE = AstridProject1/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Reboot.AstridiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = Reboot.AstridProject1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -658,19 +666,18 @@
 		};
 		D672BDAA2762A9CA009BBE9C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FC368C1804FCE5FB4B3C62A /* Pods-AstridProject1.release.xcconfig */;
+			baseConfigurationReference = 7B9D92421BC901E31FD45B41 /* Pods-AstridProject1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M55CBU2939;
 				INFOPLIST_FILE = AstridProject1/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Reboot.AstridiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = Reboot.AstridProject1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -679,7 +686,7 @@
 		};
 		D672BDAC2762A9CA009BBE9C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 736CC4C66D40B7E4AF18F361 /* Pods-AstridProject1Tests.debug.xcconfig */;
+			baseConfigurationReference = ED3C5FAA034AE87C8ED55264 /* Pods-AstridProject1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -702,7 +709,7 @@
 		};
 		D672BDAD2762A9CA009BBE9C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 382950161032B7DF9214AD6B /* Pods-AstridProject1Tests.release.xcconfig */;
+			baseConfigurationReference = 609C6C06E9D55F8A73D6F5E0 /* Pods-AstridProject1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -725,7 +732,7 @@
 		};
 		D672BDAF2762A9CA009BBE9C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F35B32167D3C3514DB93EB7 /* Pods-AstridProject1-AstridProject1UITests.debug.xcconfig */;
+			baseConfigurationReference = FD8EF38BBCC58024A22322ED /* Pods-AstridProject1-AstridProject1UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -746,7 +753,7 @@
 		};
 		D672BDB02762A9CA009BBE9C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 273635BF222D1BF23883FA66 /* Pods-AstridProject1-AstridProject1UITests.release.xcconfig */;
+			baseConfigurationReference = 32BB850E9C10A01080D95233 /* Pods-AstridProject1-AstridProject1UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
