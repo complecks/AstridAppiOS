@@ -1,0 +1,6 @@
+framework module Pods_AstridProject1_AstridProject1UITests {
+  umbrella header "Pods-AstridProject1-AstridProject1UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
