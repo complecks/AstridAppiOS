@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -1324,6 +1323,177 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Jw-b1-oz0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1706" y="697"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6Ct-Lu-hvl">
+            <objects>
+                <viewController id="Kqx-Zr-qrN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i0n-ie-LUT">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 27" translatesAutoresizingMaskIntoConstraints="NO" id="8Td-75-pdz">
+                                <rect key="frame" x="0.0" y="763" width="390" height="3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="390" id="MSU-3p-mYG"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="u5y-Lm-j0d">
+                                <rect key="frame" x="34" y="774" width="322" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amt-d6-iko">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" backgroundImage="Home"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7CS-8c-1p6">
+                                        <rect key="frame" x="68" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="News"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a2p-W4-aIY">
+                                        <rect key="frame" x="136" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="RedGuides"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jV9-8c-r7n">
+                                        <rect key="frame" x="204" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="Maps"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qG3-2f-KfY">
+                                        <rect key="frame" x="272" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="Settings"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="D9a-rd-q73"/>
+                                </constraints>
+                            </stackView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tux-Qh-H7M">
+                                <rect key="frame" x="0.0" y="147" width="390" height="616"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ROv-Bp-hzA">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1000"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Street" translatesAutoresizingMaskIntoConstraints="NO" id="uwU-NN-f6D">
+                                                <rect key="frame" x="34.666666666666657" y="8" width="321" height="171"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="321" id="WMc-bZ-PsW"/>
+                                                    <constraint firstAttribute="height" constant="171" id="hpR-jG-Tzq"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is a Flood?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbr-sx-QWF">
+                                                <rect key="frame" x="34" y="207" width="173" height="27"/>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What if I am Stuck in a Car?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yEv-sQ-UYD">
+                                                <rect key="frame" x="34" y="375" width="284" height="27"/>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ylu-yv-zvS">
+                                                <rect key="frame" x="35" y="244.00000000000003" width="320" height="112.33333333333334"/>
+                                                <string key="text">Flooding is a temporary overflow of water onto land that is normally dry. Floods are the most common natural disaster in the United States. Failing to evacuate flooded areas or entering flood waters can lead to injury or death.</string>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66b-cz-ZBa">
+                                                <rect key="frame" x="35" y="412" width="320" height="150"/>
+                                                <string key="text">The general rule during floods is to minimize your driving as much as possible. However, if you are caught in a car during a flood, keep your speed very low, around 1-4 mph. Then, make sure to drive in the center of the road since it provides the highest level of elevation. Finally, try exitting the car as soon as possible, mindful of your surroundings. </string>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="floodhouse" translatesAutoresizingMaskIntoConstraints="NO" id="1C2-Iy-5hu">
+                                                <rect key="frame" x="34.666666666666657" y="585" width="321" height="171"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="171" id="C9f-hZ-2kB"/>
+                                                    <constraint firstAttribute="width" constant="321" id="Wqf-6i-TZe"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What if My House Floods?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lOU-Cf-ojg">
+                                                <rect key="frame" x="35" y="784" width="273.66666666666669" height="27"/>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YFr-zu-E0f">
+                                                <rect key="frame" x="35" y="821" width="320" height="150"/>
+                                                <string key="text">Flood waters are generally quite toxic since they can harbor various harmful bacteria and other fecal matter. As a result, it is important to wear protective gear in the event of a house flood. Furthermore, don't turn on any light switches or unplug any electronics during a flood since there is a chance that you may be electrocuted.</string>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="fbr-sx-QWF" firstAttribute="leading" secondItem="ROv-Bp-hzA" secondAttribute="leading" constant="34" id="22Y-QZ-tPf"/>
+                                            <constraint firstItem="1C2-Iy-5hu" firstAttribute="top" secondItem="66b-cz-ZBa" secondAttribute="bottom" constant="23" id="2Dq-Y0-GeB"/>
+                                            <constraint firstItem="66b-cz-ZBa" firstAttribute="leading" secondItem="ROv-Bp-hzA" secondAttribute="leading" constant="35" id="9cV-w8-hcl"/>
+                                            <constraint firstItem="Ylu-yv-zvS" firstAttribute="top" secondItem="fbr-sx-QWF" secondAttribute="bottom" constant="10" id="Hbu-p1-DeN"/>
+                                            <constraint firstItem="uwU-NN-f6D" firstAttribute="centerX" secondItem="ROv-Bp-hzA" secondAttribute="centerX" id="MkE-4l-4dJ"/>
+                                            <constraint firstItem="lOU-Cf-ojg" firstAttribute="top" secondItem="1C2-Iy-5hu" secondAttribute="bottom" constant="28" id="SsA-Kr-xwZ"/>
+                                            <constraint firstItem="yEv-sQ-UYD" firstAttribute="leading" secondItem="fbr-sx-QWF" secondAttribute="leading" id="VAA-R9-qpk"/>
+                                            <constraint firstItem="YFr-zu-E0f" firstAttribute="leading" secondItem="ROv-Bp-hzA" secondAttribute="leading" constant="35" id="Vxy-Zy-oDU"/>
+                                            <constraint firstItem="Ylu-yv-zvS" firstAttribute="leading" secondItem="ROv-Bp-hzA" secondAttribute="leading" constant="35" id="W3x-fm-8aI"/>
+                                            <constraint firstItem="1C2-Iy-5hu" firstAttribute="centerX" secondItem="ROv-Bp-hzA" secondAttribute="centerX" id="cyE-ON-TVM"/>
+                                            <constraint firstItem="yEv-sQ-UYD" firstAttribute="top" secondItem="Ylu-yv-zvS" secondAttribute="bottom" constant="18.666666666666629" id="gqX-Qa-igs"/>
+                                            <constraint firstAttribute="trailing" secondItem="Ylu-yv-zvS" secondAttribute="trailing" constant="35" id="jlH-rj-f8j"/>
+                                            <constraint firstAttribute="height" constant="1000" id="kp7-Zw-LIO"/>
+                                            <constraint firstAttribute="trailing" secondItem="YFr-zu-E0f" secondAttribute="trailing" constant="35" id="oqY-1G-IJY"/>
+                                            <constraint firstItem="fbr-sx-QWF" firstAttribute="top" secondItem="uwU-NN-f6D" secondAttribute="bottom" constant="28" id="qdN-AC-Lmb"/>
+                                            <constraint firstItem="YFr-zu-E0f" firstAttribute="top" secondItem="lOU-Cf-ojg" secondAttribute="bottom" constant="10" id="sCa-pf-oKC"/>
+                                            <constraint firstItem="uwU-NN-f6D" firstAttribute="top" secondItem="ROv-Bp-hzA" secondAttribute="top" constant="8" id="tuT-8o-QVq"/>
+                                            <constraint firstItem="lOU-Cf-ojg" firstAttribute="leading" secondItem="ROv-Bp-hzA" secondAttribute="leading" constant="35" id="uJW-63-LYd"/>
+                                            <constraint firstItem="66b-cz-ZBa" firstAttribute="top" secondItem="yEv-sQ-UYD" secondAttribute="bottom" constant="10" id="xCa-6m-CVZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="66b-cz-ZBa" secondAttribute="trailing" constant="35" id="yew-8U-sTB"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="ROv-Bp-hzA" secondAttribute="bottom" id="Wsf-15-Mbf"/>
+                                    <constraint firstItem="ROv-Bp-hzA" firstAttribute="leading" secondItem="tux-Qh-H7M" secondAttribute="leading" id="fLX-9Q-dT6"/>
+                                    <constraint firstAttribute="trailing" secondItem="ROv-Bp-hzA" secondAttribute="trailing" id="hwL-ha-9H3"/>
+                                    <constraint firstItem="ROv-Bp-hzA" firstAttribute="top" secondItem="tux-Qh-H7M" secondAttribute="top" id="nF3-jK-LZa"/>
+                                </constraints>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hlD-5Q-S7t">
+                                <rect key="frame" x="34" y="58" width="62" height="22"/>
+                                <state key="normal" image="􀆉 BACK"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Template" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qLh-Vm-4XV">
+                                <rect key="frame" x="34" y="97" width="131" height="35.333333333333343"/>
+                                <fontDescription key="fontDescription" name="TTNormsPro-Bold" family="TT Norms Pro" pointSize="30"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="C36-dZ-Q88"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8Td-75-pdz" firstAttribute="centerX" secondItem="i0n-ie-LUT" secondAttribute="centerX" id="3hT-jc-ao9"/>
+                            <constraint firstItem="8Td-75-pdz" firstAttribute="top" secondItem="tux-Qh-H7M" secondAttribute="bottom" id="4k2-PY-Zty"/>
+                            <constraint firstItem="u5y-Lm-j0d" firstAttribute="centerX" secondItem="i0n-ie-LUT" secondAttribute="centerX" id="E68-CQ-zcR"/>
+                            <constraint firstItem="u5y-Lm-j0d" firstAttribute="top" secondItem="8Td-75-pdz" secondAttribute="bottom" constant="8" symbolic="YES" id="F87-J7-hoh"/>
+                            <constraint firstItem="tux-Qh-H7M" firstAttribute="trailing" secondItem="C36-dZ-Q88" secondAttribute="trailing" id="NAv-sy-hMG"/>
+                            <constraint firstItem="tux-Qh-H7M" firstAttribute="leading" secondItem="C36-dZ-Q88" secondAttribute="leading" id="Pdv-sB-Tch"/>
+                            <constraint firstItem="qLh-Vm-4XV" firstAttribute="top" secondItem="hlD-5Q-S7t" secondAttribute="bottom" constant="17" id="Qsq-eu-ZXk"/>
+                            <constraint firstItem="qLh-Vm-4XV" firstAttribute="leading" secondItem="C36-dZ-Q88" secondAttribute="leading" constant="34" id="Vg2-XJ-gS7"/>
+                            <constraint firstItem="tux-Qh-H7M" firstAttribute="top" secondItem="qLh-Vm-4XV" secondAttribute="top" constant="50" id="dhx-e5-Gtw"/>
+                            <constraint firstItem="hlD-5Q-S7t" firstAttribute="top" secondItem="i0n-ie-LUT" secondAttribute="top" constant="58" id="k87-pF-ZXk"/>
+                            <constraint firstAttribute="bottom" secondItem="u5y-Lm-j0d" secondAttribute="bottom" constant="20" symbolic="YES" id="mPa-tu-9IX"/>
+                            <constraint firstItem="hlD-5Q-S7t" firstAttribute="leading" secondItem="C36-dZ-Q88" secondAttribute="leading" constant="34" id="vsW-3j-skV"/>
+                            <constraint firstItem="ROv-Bp-hzA" firstAttribute="width" secondItem="i0n-ie-LUT" secondAttribute="width" id="vuz-Oa-v1W"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="390" height="844"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h4q-QU-3ey" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1706" y="-21"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
