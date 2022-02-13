@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -1293,8 +1294,8 @@
                                 <rect key="frame" x="34" y="58" width="62" height="22"/>
                                 <state key="normal" image="􀆉 BACK"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hurricanes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="76f-0u-O9N">
-                                <rect key="frame" x="34" y="97" width="152.66666666666666" height="35.333333333333343"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tornadoes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="76f-0u-O9N">
+                                <rect key="frame" x="34" y="97" width="146.33333333333334" height="35.333333333333343"/>
                                 <fontDescription key="fontDescription" name="TTNormsPro-Bold" family="TT Norms Pro" pointSize="30"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1323,6 +1324,195 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Jw-b1-oz0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1706" y="697"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2Xg-hp-aIZ">
+            <objects>
+                <viewController id="iph-XD-R9s" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7iE-cd-i7Z">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 27" translatesAutoresizingMaskIntoConstraints="NO" id="kS3-KF-Ckd">
+                                <rect key="frame" x="0.0" y="763" width="390" height="3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="390" id="aNd-22-jzq"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="60F-XY-Hic">
+                                <rect key="frame" x="34" y="774" width="322" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pgu-P3-LYc">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" backgroundImage="Home"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQJ-dv-61h">
+                                        <rect key="frame" x="68" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="News"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yr6-DW-Wxb">
+                                        <rect key="frame" x="136" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="RedGuides"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1dI-ID-YHc">
+                                        <rect key="frame" x="204" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="Maps"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yyx-rV-GIX">
+                                        <rect key="frame" x="272" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="Settings"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="bf9-hg-sDN"/>
+                                </constraints>
+                            </stackView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLU-z3-kXn">
+                                <rect key="frame" x="0.0" y="147" width="390" height="616"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gHr-Ej-xdV">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1500"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hurricane" translatesAutoresizingMaskIntoConstraints="NO" id="eHr-oW-1wC">
+                                                <rect key="frame" x="34.666666666666657" y="8" width="321" height="171"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="321" id="aa5-a7-jVL"/>
+                                                    <constraint firstAttribute="height" constant="171" id="fqG-rs-nuO"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is a Hurricane?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Thu-Uo-qPS">
+                                                <rect key="frame" x="34" y="207" width="216" height="27"/>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to prepare for a Hurricane" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pzk-9N-4Xv">
+                                                <rect key="frame" x="34" y="394" width="320.33333333333331" height="27"/>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOg-G2-Jhw">
+                                                <rect key="frame" x="35" y="244" width="320" height="131.33333333333337"/>
+                                                <string key="text">Hurricanes are large storms that swirl and produce winds of 119 kmph(74 mph) or faster. They form in the ocean and sometimes strike land. When they strike land they push a wall of ocean water ashore which is known as storm surge. Once formed their path and strength can be predicted. </string>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Kr-kU-iEA">
+                                                <rect key="frame" x="35" y="431" width="320" height="206"/>
+                                                <string key="text">If you live in areas of risk then you should be prepared for hurricane season which is from June 1 to November 30 each year. To be prepared you should have emergencey contcats saved and put on your fridge, you should also have an emergency kit, and finally have enough food and water. You should also make sure your carbon monoxide detectors work properly, have your car filled up and in your garage, and cover up all your windows and doors with storm shutters.  </string>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HurricaneStorm" translatesAutoresizingMaskIntoConstraints="NO" id="Phn-tc-t1T">
+                                                <rect key="frame" x="34.666666666666657" y="660" width="321" height="171"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="321" id="8wW-jM-qge"/>
+                                                    <constraint firstAttribute="height" constant="171" id="dSR-YR-JQx"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What if I have to stay at home?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jej-iX-oob">
+                                                <rect key="frame" x="35" y="859" width="319.66666666666669" height="27"/>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Blu-DG-6h8">
+                                                <rect key="frame" x="35" y="896" width="320" height="150"/>
+                                                <string key="text">If you are ordered to stay at home during the hurricane, you should have your emergency kit and other necesseties handy and be ready to leave. During the hurricane, you should not go outside even if it may seem safe, stay away from all windows and doors, and constantly listen to the news through a tv or radio to stay updated.</string>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What if I have to evacuate?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yce-Zt-SKH">
+                                                <rect key="frame" x="35" y="1064.6666666666667" width="283" height="27"/>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vD-Rf-jq6">
+                                                <rect key="frame" x="35" y="1110.3333333333333" width="320" height="131.33333333333326"/>
+                                                <string key="text">If you are ordered to evacuate, grab your emergency kit and all other necessities, unplug all your appliances, and follow roads that are recommended even if they have traffic. When driving, never drive in any water even if it looks shallow as it may get deeper and cars can stall in just 6 inches of water.   </string>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="0Kr-kU-iEA" firstAttribute="top" secondItem="Pzk-9N-4Xv" secondAttribute="bottom" constant="10" id="4Dj-E4-iME"/>
+                                            <constraint firstAttribute="trailing" secondItem="0Kr-kU-iEA" secondAttribute="trailing" constant="35" id="4Ol-Xn-QhU"/>
+                                            <constraint firstItem="Blu-DG-6h8" firstAttribute="leading" secondItem="gHr-Ej-xdV" secondAttribute="leading" constant="35" id="998-f1-ADq"/>
+                                            <constraint firstItem="Thu-Uo-qPS" firstAttribute="top" secondItem="eHr-oW-1wC" secondAttribute="bottom" constant="28" id="EmT-uL-H32"/>
+                                            <constraint firstItem="jej-iX-oob" firstAttribute="leading" secondItem="gHr-Ej-xdV" secondAttribute="leading" constant="35" id="FNI-wy-hGD"/>
+                                            <constraint firstItem="Pzk-9N-4Xv" firstAttribute="leading" secondItem="Thu-Uo-qPS" secondAttribute="leading" id="GDe-IX-VZM"/>
+                                            <constraint firstItem="3vD-Rf-jq6" firstAttribute="top" secondItem="yce-Zt-SKH" secondAttribute="bottom" constant="18.670000000000002" id="Hj9-fh-dDi"/>
+                                            <constraint firstItem="Pzk-9N-4Xv" firstAttribute="top" secondItem="OOg-G2-Jhw" secondAttribute="bottom" constant="18.666666666666629" id="Iql-ZU-9pb"/>
+                                            <constraint firstAttribute="trailing" secondItem="3vD-Rf-jq6" secondAttribute="trailing" constant="35" id="Iwn-hR-MOd"/>
+                                            <constraint firstAttribute="trailing" secondItem="Blu-DG-6h8" secondAttribute="trailing" constant="35" id="MVp-7q-IHb"/>
+                                            <constraint firstItem="Thu-Uo-qPS" firstAttribute="leading" secondItem="gHr-Ej-xdV" secondAttribute="leading" constant="34" id="NbC-6Z-B8f"/>
+                                            <constraint firstAttribute="trailing" secondItem="OOg-G2-Jhw" secondAttribute="trailing" constant="35" id="ROP-y9-ZUU"/>
+                                            <constraint firstItem="yce-Zt-SKH" firstAttribute="leading" secondItem="gHr-Ej-xdV" secondAttribute="leading" constant="35" id="Wz7-yP-JGW"/>
+                                            <constraint firstItem="0Kr-kU-iEA" firstAttribute="leading" secondItem="gHr-Ej-xdV" secondAttribute="leading" constant="35" id="bvd-S2-Faf"/>
+                                            <constraint firstItem="OOg-G2-Jhw" firstAttribute="top" secondItem="Thu-Uo-qPS" secondAttribute="bottom" constant="10" id="dpj-Qa-aSM"/>
+                                            <constraint firstItem="OOg-G2-Jhw" firstAttribute="leading" secondItem="gHr-Ej-xdV" secondAttribute="leading" constant="35" id="eQk-kb-tI3"/>
+                                            <constraint firstItem="eHr-oW-1wC" firstAttribute="centerX" secondItem="gHr-Ej-xdV" secondAttribute="centerX" id="hbw-Xu-lEZ"/>
+                                            <constraint firstItem="Blu-DG-6h8" firstAttribute="top" secondItem="jej-iX-oob" secondAttribute="bottom" constant="10" id="lcl-1Y-FX0"/>
+                                            <constraint firstAttribute="height" constant="1500" id="o16-0a-8IX"/>
+                                            <constraint firstItem="Phn-tc-t1T" firstAttribute="top" secondItem="0Kr-kU-iEA" secondAttribute="bottom" constant="23" id="q2k-cY-eYu"/>
+                                            <constraint firstItem="yce-Zt-SKH" firstAttribute="top" secondItem="Blu-DG-6h8" secondAttribute="bottom" constant="18.667000000000002" id="qCf-G3-iRS"/>
+                                            <constraint firstItem="Phn-tc-t1T" firstAttribute="centerX" secondItem="gHr-Ej-xdV" secondAttribute="centerX" id="sg1-fX-Lwu"/>
+                                            <constraint firstItem="eHr-oW-1wC" firstAttribute="top" secondItem="gHr-Ej-xdV" secondAttribute="top" constant="8" id="ufs-0h-hZs"/>
+                                            <constraint firstItem="3vD-Rf-jq6" firstAttribute="leading" secondItem="gHr-Ej-xdV" secondAttribute="leading" constant="35" id="v8F-7v-Gtv"/>
+                                            <constraint firstItem="jej-iX-oob" firstAttribute="top" secondItem="Phn-tc-t1T" secondAttribute="bottom" constant="28" id="zmt-RG-sPA"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="gHr-Ej-xdV" secondAttribute="bottom" id="0gi-fZ-YQw"/>
+                                    <constraint firstItem="gHr-Ej-xdV" firstAttribute="top" secondItem="OLU-z3-kXn" secondAttribute="top" id="OYE-MO-2XW"/>
+                                    <constraint firstAttribute="trailing" secondItem="gHr-Ej-xdV" secondAttribute="trailing" id="Q33-gl-EcA"/>
+                                    <constraint firstItem="gHr-Ej-xdV" firstAttribute="leading" secondItem="OLU-z3-kXn" secondAttribute="leading" id="p0X-PK-eHb"/>
+                                </constraints>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oUM-aZ-o49">
+                                <rect key="frame" x="34" y="58" width="62" height="22"/>
+                                <state key="normal" image="􀆉 BACK"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hurricanes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxb-G0-CEg">
+                                <rect key="frame" x="34" y="97" width="152.66666666666666" height="35.333333333333343"/>
+                                <fontDescription key="fontDescription" name="TTNormsPro-Bold" family="TT Norms Pro" pointSize="30"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xbp-qJ-BZU"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="60F-XY-Hic" firstAttribute="centerX" secondItem="7iE-cd-i7Z" secondAttribute="centerX" id="0sY-bL-Kku"/>
+                            <constraint firstItem="OLU-z3-kXn" firstAttribute="top" secondItem="wxb-G0-CEg" secondAttribute="top" constant="50" id="2YE-Xq-zon"/>
+                            <constraint firstItem="kS3-KF-Ckd" firstAttribute="top" secondItem="OLU-z3-kXn" secondAttribute="bottom" id="50z-dX-vT8"/>
+                            <constraint firstItem="wxb-G0-CEg" firstAttribute="top" secondItem="oUM-aZ-o49" secondAttribute="bottom" constant="17" id="NTi-TX-UGU"/>
+                            <constraint firstItem="oUM-aZ-o49" firstAttribute="leading" secondItem="xbp-qJ-BZU" secondAttribute="leading" constant="34" id="RaF-4d-uBm"/>
+                            <constraint firstItem="oUM-aZ-o49" firstAttribute="top" secondItem="7iE-cd-i7Z" secondAttribute="top" constant="58" id="Shz-F9-5cW"/>
+                            <constraint firstItem="OLU-z3-kXn" firstAttribute="leading" secondItem="xbp-qJ-BZU" secondAttribute="leading" id="bke-2a-RLX"/>
+                            <constraint firstItem="gHr-Ej-xdV" firstAttribute="width" secondItem="7iE-cd-i7Z" secondAttribute="width" id="c9p-LR-o7C"/>
+                            <constraint firstItem="kS3-KF-Ckd" firstAttribute="centerX" secondItem="7iE-cd-i7Z" secondAttribute="centerX" id="hZz-m9-TMH"/>
+                            <constraint firstItem="wxb-G0-CEg" firstAttribute="leading" secondItem="xbp-qJ-BZU" secondAttribute="leading" constant="34" id="mVK-xC-caM"/>
+                            <constraint firstItem="OLU-z3-kXn" firstAttribute="trailing" secondItem="xbp-qJ-BZU" secondAttribute="trailing" id="sIg-g2-f6a"/>
+                            <constraint firstItem="60F-XY-Hic" firstAttribute="top" secondItem="kS3-KF-Ckd" secondAttribute="bottom" constant="8" symbolic="YES" id="xCz-hf-VKV"/>
+                            <constraint firstAttribute="bottom" secondItem="60F-XY-Hic" secondAttribute="bottom" constant="20" symbolic="YES" id="xyL-wb-fOC"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="390" height="844"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HcV-8s-mhs" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1706.1538461538462" y="1367.7725118483411"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6Ct-Lu-hvl">
@@ -1507,6 +1697,8 @@
         <image name="Blue Drive" width="175" height="54"/>
         <image name="Guides" width="50" height="50"/>
         <image name="Home" width="50" height="50"/>
+        <image name="Hurricane" width="2048" height="1536"/>
+        <image name="HurricaneStorm" width="1280" height="853"/>
         <image name="IMG_3135" width="501" height="501"/>
         <image name="Loading" width="224" height="133"/>
         <image name="Logo" width="78" height="78"/>
