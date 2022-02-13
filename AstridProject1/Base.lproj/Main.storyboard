@@ -574,7 +574,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sWh-7y-iEx" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-877" y="698"/>
+            <point key="canvasLocation" x="-878.46153846153845" y="697.39336492890993"/>
         </scene>
         <!--News Page-->
         <scene sceneID="OBY-lr-MFj">
@@ -1323,7 +1323,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Jw-b1-oz0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1706" y="697"/>
+            <point key="canvasLocation" x="-1706.1538461538462" y="696.6824644549763"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2Xg-hp-aIZ">
@@ -1381,8 +1381,8 @@
                                                     <constraint firstAttribute="height" constant="171" id="fqG-rs-nuO"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is a Hurricane?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Thu-Uo-qPS">
-                                                <rect key="frame" x="34" y="207" width="216" height="27"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="What is a Hurricane?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Thu-Uo-qPS">
+                                                <rect key="frame" x="34" y="207" width="233" height="27"/>
                                                 <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -1512,7 +1512,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HcV-8s-mhs" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1706.1538461538462" y="1367.7725118483411"/>
+            <point key="canvasLocation" x="-1706.1538461538462" y="1367.0616113744074"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6Ct-Lu-hvl">
@@ -1685,6 +1685,542 @@
             </objects>
             <point key="canvasLocation" x="-1706" y="-21"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="4wZ-Bz-5pl">
+            <objects>
+                <viewController id="1AU-Ug-Myx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="32c-qg-c2m">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 27" translatesAutoresizingMaskIntoConstraints="NO" id="ugq-QV-D1K">
+                                <rect key="frame" x="0.0" y="763" width="390" height="3"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="8nU-pR-qAv">
+                                <rect key="frame" x="34" y="774" width="322" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W2Z-bf-YOn">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" backgroundImage="Home"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PT3-u2-gQ7">
+                                        <rect key="frame" x="68" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="News"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yqb-2G-gwe">
+                                        <rect key="frame" x="136" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="Guides"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bd6-jc-cQk">
+                                        <rect key="frame" x="204" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="Maps"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yKh-aK-Tvb">
+                                        <rect key="frame" x="272" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="PXW-SJ-be7"/>
+                                            <constraint firstAttribute="width" constant="50" id="m7P-q2-SUA"/>
+                                        </constraints>
+                                        <state key="normal" image="RedSettings"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="97d-0v-5ZK">
+                                <rect key="frame" x="0.0" y="147" width="390" height="616"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ub6-85-mbd">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1000"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="What if My House Floods?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PEl-Jv-b9K">
+                                                <rect key="frame" x="35" y="784" width="273.66666666666669" height="27"/>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aod-uk-Omf">
+                                                <rect key="frame" x="35" y="821" width="320" height="150"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Flood waters are generally quite toxic since they can harbor various harmful bacteria and other fecal matter. As a result, it is important to wear protective gear in the event of a house flood. Furthermore, don't turn on any light switches or unplug any electronics during a flood since there is a chance that you may be electrocuted.</string>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Settings Options" translatesAutoresizingMaskIntoConstraints="NO" id="rgw-Lg-Ubj">
+                                                <rect key="frame" x="4" y="130" width="382" height="240"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4H-YV-7h1">
+                                                <rect key="frame" x="9" y="168" width="357" height="49"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vJ6-Gj-BFL">
+                                                <rect key="frame" x="9" y="225" width="357" height="49"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yUy-bE-VJN">
+                                                <rect key="frame" x="17" y="282" width="357" height="49"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="49" id="XT4-ch-bwx"/>
+                                                    <constraint firstAttribute="width" constant="357" id="YGz-lC-woP"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="yUy-bE-VJN" firstAttribute="centerX" secondItem="ub6-85-mbd" secondAttribute="centerX" id="1bD-Uu-rKd"/>
+                                            <constraint firstItem="PEl-Jv-b9K" firstAttribute="top" secondItem="yUy-bE-VJN" secondAttribute="bottom" constant="453" id="Lgq-2c-uvA"/>
+                                            <constraint firstItem="yUy-bE-VJN" firstAttribute="top" secondItem="vJ6-Gj-BFL" secondAttribute="bottom" constant="8" symbolic="YES" id="W0o-bX-A8K"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fg-9v-YHX">
+                                <rect key="frame" x="34" y="58" width="62" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="􀆉 BACK"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OwT-ln-bUD">
+                                <rect key="frame" x="137" y="97" width="116.33333333333331" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TTNormsPro-Bold" family="TT Norms Pro" pointSize="30"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Ahq-em-wWt">
+                                <rect key="frame" x="156" y="13" width="78" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Hyj-xH-yxq"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <size key="freeformSize" width="390" height="844"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="quK-wM-QF1" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-878.46153846153845" y="1412.5592417061612"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VWJ-fh-02s">
+            <objects>
+                <viewController id="njn-4K-qEH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aXf-d3-K1f">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 27" translatesAutoresizingMaskIntoConstraints="NO" id="RZS-9P-0FP">
+                                <rect key="frame" x="0.0" y="763" width="390" height="3"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="lht-bp-cqH">
+                                <rect key="frame" x="34" y="774" width="322" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s7Z-Ws-8jl">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" backgroundImage="Home"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSa-sy-q6C">
+                                        <rect key="frame" x="68" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="News"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0CM-0T-mE3">
+                                        <rect key="frame" x="136" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="Guides"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KCk-7p-yBQ">
+                                        <rect key="frame" x="204" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="Maps"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7bn-Y6-aYE">
+                                        <rect key="frame" x="272" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="JWc-3F-bPC"/>
+                                            <constraint firstAttribute="width" constant="50" id="pRZ-tR-nXM"/>
+                                        </constraints>
+                                        <state key="normal" image="RedSettings"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKl-MQ-d7N">
+                                <rect key="frame" x="0.0" y="147" width="390" height="616"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g6j-Z6-4OC">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1000"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What if My House Floods?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZ6-VK-foE">
+                                                <rect key="frame" x="35" y="784" width="273.66666666666669" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3S8-l2-FN9">
+                                                <rect key="frame" x="35" y="821" width="320" height="150"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Flood waters are generally quite toxic since they can harbor various harmful bacteria and other fecal matter. As a result, it is important to wear protective gear in the event of a house flood. Furthermore, don't turn on any light switches or unplug any electronics during a flood since there is a chance that you may be electrocuted.</string>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKK-lD-9dE">
+                                <rect key="frame" x="34" y="58" width="62" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="􀆉 BACK"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accesibility" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OFy-B6-btY">
+                                <rect key="frame" x="114.66666666666667" y="97" width="160.66666666666663" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="0Uf-u7-XlI"/>
+                                    <constraint firstAttribute="width" constant="160.66999999999999" id="xhH-Qf-bBW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TTNormsPro-Bold" family="TT Norms Pro" pointSize="30"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="ehc-dq-jhY">
+                                <rect key="frame" x="156" y="13" width="78" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wcF-kv-cik"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OFy-B6-btY" firstAttribute="top" secondItem="wcF-kv-cik" secondAttribute="top" constant="53" id="cRa-2I-550"/>
+                            <constraint firstItem="sKl-MQ-d7N" firstAttribute="top" secondItem="OFy-B6-btY" secondAttribute="bottom" constant="14" id="jve-vH-6sX"/>
+                            <constraint firstItem="OFy-B6-btY" firstAttribute="centerX" secondItem="aXf-d3-K1f" secondAttribute="centerX" id="uTz-hY-jaT"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="390" height="844"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IlF-PF-Xeh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-83.07692307692308" y="1412.5592417061612"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UFu-Mp-vmz">
+            <objects>
+                <viewController id="zOJ-X1-C6B" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ejt-t8-i8c">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 27" translatesAutoresizingMaskIntoConstraints="NO" id="Frq-tI-hV3">
+                                <rect key="frame" x="0.0" y="763" width="390" height="3"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="Z3K-gF-FtU">
+                                <rect key="frame" x="34" y="774" width="322" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0r5-g6-IjA">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" backgroundImage="Home"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZ3-d1-iBj">
+                                        <rect key="frame" x="68" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="News"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aH0-XR-9ee">
+                                        <rect key="frame" x="136" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="Guides"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BBq-mr-JNL">
+                                        <rect key="frame" x="204" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="Maps"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPZ-Qd-B2c">
+                                        <rect key="frame" x="272" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="JQ0-3t-9lo"/>
+                                            <constraint firstAttribute="width" constant="50" id="Vg6-26-MOj"/>
+                                        </constraints>
+                                        <state key="normal" image="RedSettings"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JOC-PD-eja">
+                                <rect key="frame" x="0.0" y="147" width="390" height="616"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1de-u3-5nN">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1000"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What if My House Floods?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Y1-P4-if4">
+                                                <rect key="frame" x="35" y="784" width="273.66666666666669" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nuw-UF-YCz">
+                                                <rect key="frame" x="35" y="821" width="320" height="150"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Flood waters are generally quite toxic since they can harbor various harmful bacteria and other fecal matter. As a result, it is important to wear protective gear in the event of a house flood. Furthermore, don't turn on any light switches or unplug any electronics during a flood since there is a chance that you may be electrocuted.</string>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="we8-CZ-dPc">
+                                <rect key="frame" x="34" y="58" width="62" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="􀆉 BACK"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUx-BO-B8j">
+                                <rect key="frame" x="129.33333333333331" y="97" width="131.33333333333331" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="VVy-Ug-pLY"/>
+                                    <constraint firstAttribute="width" constant="131.33000000000001" id="fX4-f8-ooO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TTNormsPro-Bold" family="TT Norms Pro" pointSize="30"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="9MR-z6-uN4">
+                                <rect key="frame" x="156" y="13" width="78" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5Ow-bI-Nhp"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EUx-BO-B8j" firstAttribute="top" secondItem="5Ow-bI-Nhp" secondAttribute="top" constant="53" id="Ffs-ej-M7D"/>
+                            <constraint firstItem="EUx-BO-B8j" firstAttribute="centerX" secondItem="ejt-t8-i8c" secondAttribute="centerX" id="K5F-Hd-deF"/>
+                            <constraint firstItem="JOC-PD-eja" firstAttribute="top" secondItem="EUx-BO-B8j" secondAttribute="bottom" constant="14" id="NBU-O0-wLH"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="390" height="844"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="99G-P5-SAl" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="680" y="1413"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="po0-VS-qEn">
+            <objects>
+                <viewController id="uZQ-sD-rCM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o1S-d4-Hvj">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 27" translatesAutoresizingMaskIntoConstraints="NO" id="QR4-eX-yHX">
+                                <rect key="frame" x="0.0" y="763" width="390" height="3"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="7le-0p-kqk">
+                                <rect key="frame" x="34" y="774" width="322" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djn-pK-sji">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" backgroundImage="Home"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7F-Eb-5DB">
+                                        <rect key="frame" x="68" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="News"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bhp-mg-BSn">
+                                        <rect key="frame" x="136" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="Guides"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RaD-qc-Xfl">
+                                        <rect key="frame" x="204" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="Maps"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X9S-zE-0fd">
+                                        <rect key="frame" x="272" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="Settings"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3d-Bn-D77">
+                                <rect key="frame" x="0.0" y="147" width="390" height="616"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uqc-ld-Goq">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1000"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What if My House Floods?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jNM-Wp-56d">
+                                                <rect key="frame" x="35" y="784" width="273.66666666666669" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nca-l3-xAK">
+                                                <rect key="frame" x="35" y="821" width="320" height="150"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Flood waters are generally quite toxic since they can harbor various harmful bacteria and other fecal matter. As a result, it is important to wear protective gear in the event of a house flood. Furthermore, don't turn on any light switches or unplug any electronics during a flood since there is a chance that you may be electrocuted.</string>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mrd-E7-3gC">
+                                <rect key="frame" x="34" y="58" width="62" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="􀆉 BACK"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cX0-fq-eby">
+                                <rect key="frame" x="129.33333333333331" y="97" width="131.33333333333331" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="KUi-Se-0tf"/>
+                                    <constraint firstAttribute="width" constant="131.33000000000001" id="ROa-9Q-1NH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TTNormsPro-Bold" family="TT Norms Pro" pointSize="30"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="1Kn-95-lFM">
+                                <rect key="frame" x="156" y="13" width="78" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="y5T-Hi-0XZ"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cX0-fq-eby" firstAttribute="top" secondItem="y5T-Hi-0XZ" secondAttribute="top" constant="53" id="VLW-fe-pft"/>
+                            <constraint firstItem="cX0-fq-eby" firstAttribute="centerX" secondItem="o1S-d4-Hvj" secondAttribute="centerX" id="loJ-Zc-ABh"/>
+                            <constraint firstItem="V3d-Bn-D77" firstAttribute="top" secondItem="cX0-fq-eby" secondAttribute="bottom" constant="14" id="wKe-QT-fAY"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="390" height="844"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V9n-Ha-FgD" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="680" y="1413"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ksZ-Ph-5Ld">
+            <objects>
+                <viewController id="Vjg-RL-NlP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wxd-DL-BUF">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 27" translatesAutoresizingMaskIntoConstraints="NO" id="McE-Ut-aC1">
+                                <rect key="frame" x="0.0" y="763" width="390" height="3"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="90r-qg-qqd">
+                                <rect key="frame" x="34" y="774" width="322" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Udu-xK-hmo">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" backgroundImage="Home"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JVC-dd-dno">
+                                        <rect key="frame" x="68" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="News"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ghg-Cq-OPs">
+                                        <rect key="frame" x="136" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="Guides"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xkY-8o-MR2">
+                                        <rect key="frame" x="204" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="Maps"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2j7-w7-iby">
+                                        <rect key="frame" x="272" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="8cI-jk-zp7"/>
+                                            <constraint firstAttribute="width" constant="50" id="jp4-EM-yCx"/>
+                                        </constraints>
+                                        <state key="normal" image="RedSettings"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Imf-h6-dfW">
+                                <rect key="frame" x="0.0" y="147" width="390" height="616"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h3q-6T-92w">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1000"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What if My House Floods?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OFC-lw-O3v">
+                                                <rect key="frame" x="35" y="784" width="273.66666666666669" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2wu-B4-rjN">
+                                                <rect key="frame" x="35" y="821" width="320" height="150"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Flood waters are generally quite toxic since they can harbor various harmful bacteria and other fecal matter. As a result, it is important to wear protective gear in the event of a house flood. Furthermore, don't turn on any light switches or unplug any electronics during a flood since there is a chance that you may be electrocuted.</string>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="skP-Wd-73R">
+                                <rect key="frame" x="34" y="58" width="62" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="􀆉 BACK"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="App Version" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="557-w9-8iq">
+                                <rect key="frame" x="110" y="97" width="170" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="H7A-YY-gei"/>
+                                    <constraint firstAttribute="width" constant="169.66999999999999" id="xC1-6n-zhk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TTNormsPro-Bold" family="TT Norms Pro" pointSize="30"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="mjM-SV-zPq">
+                                <rect key="frame" x="156" y="13" width="78" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zO0-r7-oJ8"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="557-w9-8iq" firstAttribute="centerX" secondItem="Wxd-DL-BUF" secondAttribute="centerX" id="PNh-5e-txh"/>
+                            <constraint firstItem="557-w9-8iq" firstAttribute="top" secondItem="zO0-r7-oJ8" secondAttribute="top" constant="53" id="Yg7-RT-HUT"/>
+                            <constraint firstItem="Imf-h6-dfW" firstAttribute="top" secondItem="557-w9-8iq" secondAttribute="bottom" constant="14" id="eTu-Ti-Pex"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="390" height="844"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="45G-Qi-qJR" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1511" y="1413"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="M2L-eP-hWo"/>
@@ -1710,7 +2246,9 @@
         <image name="RedHome" width="50" height="50"/>
         <image name="RedMaps" width="50" height="50"/>
         <image name="RedNews" width="50" height="50"/>
+        <image name="RedSettings" width="22.666666030883789" height="22.666666030883789"/>
         <image name="Settings" width="50" height="50"/>
+        <image name="Settings Options" width="350.66665649414062" height="150"/>
         <image name="Street" width="350" height="200"/>
         <image name="TornadoBackground" width="350" height="200"/>
         <image name="arrowshape.turn.up.left.fill" catalog="system" width="128" height="106"/>
