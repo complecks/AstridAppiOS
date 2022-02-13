@@ -25,7 +25,10 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             
             
         if (collectionView == collectionV){
-            return 5
+            if(titleArr.count == 0){
+                return 5
+            }
+            return titleArr.count
         }
         
         
@@ -59,6 +62,15 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             
         }
         }
+        
+        else{
+            
+            performSegue(withIdentifier: disasters[indexPath.row], sender: self)
+            
+        }
+        
+        
+        
       }
     
     
@@ -104,7 +116,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         
         
-        if(titleArr.count == 5)
+        if(titleArr.count > 0)
         {
             cell.lbl.text = titleArr[indexPath.item]
             
@@ -172,202 +184,31 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         super.viewDidLoad()
         
         
-        
-        
-        
-        
-        
-        
-        database.child("Article0").observeSingleEvent(of: .value, with: {snapshot in
-        
-            guard let value = snapshot.value as? [String : String]
-             else {
+        database.child("Articles").observeSingleEvent(of: .value, with: {snapshot in
+            
+            for case let child as DataSnapshot in snapshot.children {
+                    guard let value = child.value as? [String:Any] else {
+                        print("Error")
+                        return
+                    }
                 
-                return
-            }
-            
-            
-            self.defaults.setValue(value, forKey: "DictValue") //Saved the Dictionary in user default
-            
-            
-            
-            
-            
-            
-            self.titleArr.append(value["title"]!)
-            self.imgArr.append(value["image"]!)
-            self.linkArr.append(value["link"]!)
-           
-            self.collectionV.reloadData()
-            
-            
-            
-            
-        })
-        
-        database.child("Article1").observeSingleEvent(of: .value, with: {snapshot in
-        
-            guard let value = snapshot.value as? [String : String]
-             else {
+                self.defaults.setValue(value, forKey: "DictValue") //Saved the Dictionary in user default
+                    
+                print(value["title"]! as! String);
+                print("Aight")
+                self.titleArr.append(value["title"]! as! String)
+                self.imgArr.append(value["image"]! as! String)
+                self.linkArr.append(value["link"]! as! String)
                 
-                return
-            }
-            
-            
-            self.defaults.setValue(value, forKey: "DictValue") //Saved the Dictionary in user default
-            
-            
-            
-            
-            
-            print("this is the title: ")
-            print(value["title"]!)
-            self.titleArr.append(value["title"]!)
-            self.imgArr.append(value["image"]!)
-            self.linkArr.append(value["link"]!)
-           
-            
-        
-            self.collectionV.reloadData()
-            
-            
-        })
-        
-        database.child("Article2").observeSingleEvent(of: .value, with: {snapshot in
-        
-            guard let value = snapshot.value as? [String : String]
-             else {
-                
-                return
-            }
-            
-            
-            self.defaults.setValue(value, forKey: "DictValue") //Saved the Dictionary in user default
-            
-            
-            
-            
-            
-            print("this is the title: ")
-            print(value["title"]!)
-            self.titleArr.append(value["title"]!)
-            self.imgArr.append(value["image"]!)
-            self.linkArr.append(value["link"]!)
-           
-        
+             
+                }
             
             self.collectionV.reloadData()
-            
-            
-        })
-        
-        database.child("Article3").observeSingleEvent(of: .value, with: {snapshot in
-        
-            guard let value = snapshot.value as? [String : String]
-             else {
-                
-                return
-            }
-            
-            
-            self.defaults.setValue(value, forKey: "DictValue") //Saved the Dictionary in user default
-            
-            
-            
-            
-            
-            print("this is the title: ")
-            print(value["title"]!)
-            self.titleArr.append(value["title"]!)
-            self.imgArr.append(value["image"]!)
-            self.linkArr.append(value["link"]!)
-           
-            
-            print("this is the title: ")
-            print(self.titleArr)
-            
-            self.collectionV.reloadData()
-            
-        })
-        
-        database.child("Article4").observeSingleEvent(of: .value, with: {snapshot in
-        
-            guard let value = snapshot.value as? [String : String]
-             else {
-                
-                return
-            }
-            
-            
-            self.defaults.setValue(value, forKey: "DictValue") //Saved the Dictionary in user default
-            
-            
-            
-            
-            
-            print("this is the title: ")
-            print(value["title"]!)
-            self.titleArr.append(value["title"]!)
-            self.imgArr.append(value["image"]!)
-            self.linkArr.append(value["link"]!)
-           
-            
-            
-        
-            self.collectionV.reloadData()
-            
-            
         })
         
         
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-       /* let myURLString = "https://www.usnews.com/topics/subjects/safety"
-        guard let myURL = URL(string: myURLString) else {
-            print("Error: \(myURLString) doesn't seem to be a valid URL")
-            return
-        }
-
-        
-        do{
-            
-            let myHTMLString = try String(contentsOf: myURL, encoding: .ascii)
-            
-            let doc: Document = try SwiftSoup.parse(myHTMLString)
-           
-            let head: Element = try doc.select("a").first()!
-            let a: [Element] = try doc.select("a").array()
-            
-            
-            //var i = 0;
-            //for val in a{
-            //    print(try String(i) + val.text())
-            //   i = i + 1
-           // }
-            print(try a[17].text())
-            let link: String  = try a[17].attr("href")
-            print(link)
-            
-            
-            //print("didn't work")
-        }
-        catch Exception.Error(type: let type, Message: let message){
-            print(type)
-            print(message)
-        }
-        catch{
-            print("Did not work as intended")
-        }
-    */
     }
    
     

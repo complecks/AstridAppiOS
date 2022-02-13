@@ -11,6 +11,16 @@ class GuidesViewController: UIViewController, UICollectionViewDelegate, UICollec
 
     let disasters = ["Flood", "Blizzard", "Earthquake", "Tornado", "Volcano", "Lightning Storm"]
     
+    
+    func collectionView(_ collectionView: UICollectionView,
+      didSelectItemAt indexPath: IndexPath) {
+        
+            performSegue(withIdentifier: disasters[indexPath.row], sender: self)
+        
+      }
+    
+    
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
         
