@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		357835938CE1FBB17C5FB49C /* Pods_AstridProject1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC3C1930F1FB96D2424839D /* Pods_AstridProject1.framework */; };
 		3DD68EED622AF0B69E8371BD /* Pods_AstridProject1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B48F3F5DEF807029CCBDF2 /* Pods_AstridProject1Tests.framework */; };
 		5EE5DECDDD328F3FD128267E /* Pods_AstridProject1_AstridProject1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234A80B45BB1DF292792F3EA /* Pods_AstridProject1_AstridProject1UITests.framework */; };
+		8174919027BB26C500725975 /* Pods_AstridProject1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC3C1930F1FB96D2424839D /* Pods_AstridProject1.framework */; };
+		8174919127BB26C500725975 /* Pods_AstridProject1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEC3C1930F1FB96D2424839D /* Pods_AstridProject1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D6136C05279F9FBE0033A419 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6136C04279F9FBE0033A419 /* GoogleService-Info.plist */; };
 		D63AADED2790CF7E00A7877D /* Bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = D63AADEC2790CF7E00A7877D /* Bottom.png */; };
 		D672BD822762A9C8009BBE9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D672BD812762A9C8009BBE9C /* AppDelegate.swift */; };
@@ -50,6 +51,20 @@
 			remoteInfo = AstridProject1;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8174919227BB26C500725975 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8174919127BB26C500725975 /* Pods_AstridProject1.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		234A80B45BB1DF292792F3EA /* Pods_AstridProject1_AstridProject1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstridProject1_AstridProject1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				357835938CE1FBB17C5FB49C /* Pods_AstridProject1.framework in Frameworks */,
+				8174919027BB26C500725975 /* Pods_AstridProject1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +245,7 @@
 				D672BD7B2762A9C8009BBE9C /* Frameworks */,
 				D672BD7C2762A9C8009BBE9C /* Resources */,
 				167C723E5B33A4F9F2058741 /* [CP] Embed Pods Frameworks */,
+				8174919227BB26C500725975 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -650,7 +666,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M55CBU2939;
+				DEVELOPMENT_TEAM = RQNK4H8L4W;
 				INFOPLIST_FILE = AstridProject1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -669,8 +685,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M55CBU2939;
+				DEVELOPMENT_TEAM = RQNK4H8L4W;
 				INFOPLIST_FILE = AstridProject1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -678,6 +695,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Reboot.AstridProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

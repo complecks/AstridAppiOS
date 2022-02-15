@@ -1165,8 +1165,8 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p2m-61-PM0">
                                 <rect key="frame" x="0.0" y="147" width="390" height="616"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Xd-ns-rZu">
-                                        <rect key="frame" x="0.0" y="0.0" width="390" height="2000"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Xd-ns-rZu">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1300"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TornadoBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Dyc-MO-lui">
                                                 <rect key="frame" x="34.666666666666657" y="8" width="321" height="171"/>
@@ -1181,67 +1181,68 @@
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What if I am Stuck in a Car?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ZA-IL-ifW">
-                                                <rect key="frame" x="34" y="319" width="284" height="27"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Items needed in case of a Tornado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ZA-IL-ifW">
+                                                <rect key="frame" x="34" y="356.33333333333331" width="352.33333333333331" height="27"/>
                                                 <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A tornado is a natural disaster involving the movement of hot and cold wind creating a cyclone. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="64u-FO-ejp">
-                                                <rect key="frame" x="35" y="244.00000000000003" width="320" height="56.333333333333343"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="64u-FO-ejp">
+                                                <rect key="frame" x="35" y="243.99999999999997" width="320" height="93.666666666666657"/>
+                                                <string key="text">A violent, rotating column of air that usually forms between a cumulonimbus cloud and the ground. Their winds reach speeds up to 300 mph and are extremely dangerous to come across.</string>
                                                 <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kcn-ZY-9ZD">
-                                                <rect key="frame" x="35" y="356" width="320" height="150"/>
-                                                <string key="text">The general rule during floods is to minimize your driving as much as possible. However, if you are caught in a car during a flood, keep your speed very low, around 1-4 mph. Then, make sure to drive in the center of the road since it provides the highest level of elevation. Finally, try exitting the car as soon as possible, mindful of your surroundings. </string>
+                                                <rect key="frame" x="35" y="393.33333333333337" width="320" height="168.66666666666663"/>
+                                                <string key="text">In the case of a Tornado you would need some fresh batteries and a battery-operated internet-enabled device that can track the latest weather information, a tornado emergency plan that includes access to a safe shelter for all people, an emergency kit (Including water, non-perishable food, and medication), and a list of important information, including telephone numbers.</string>
                                                 <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="floodhouse" translatesAutoresizingMaskIntoConstraints="NO" id="nqx-pV-yXP">
-                                                <rect key="frame" x="34.666666666666657" y="529" width="321" height="171"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Items for tornado" translatesAutoresizingMaskIntoConstraints="NO" id="nqx-pV-yXP">
+                                                <rect key="frame" x="34.666666666666657" y="585" width="321" height="171"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="321" id="Ol1-6u-kzE"/>
                                                     <constraint firstAttribute="height" constant="171" id="voN-Qy-mk1"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What if My House Floods?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4p-Vb-Uc1">
-                                                <rect key="frame" x="35" y="728" width="273.66666666666669" height="27"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather causing Tornadoes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4p-Vb-Uc1">
+                                                <rect key="frame" x="35" y="784" width="288.33333333333331" height="27"/>
                                                 <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cp1-z9-mwj">
-                                                <rect key="frame" x="35" y="765" width="320" height="150"/>
-                                                <string key="text">Flood waters are generally quite toxic since they can harbor various harmful bacteria and other fecal matter. As a result, it is important to wear protective gear in the event of a house flood. Furthermore, don't turn on any light switches or unplug any electronics during a flood since there is a chance that you may be electrocuted.</string>
+                                                <rect key="frame" x="35" y="821" width="320" height="112.33333333333337"/>
+                                                <string key="text">Weather that can cause a tornado is thunderstorms (most likely, but not always), a dark or green-colored sky, a large and dark low-lying cloud, large hail, and a loud roar that sounds like a freight train.
+</string>
                                                 <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What if My House Floods?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Zr-4v-ui0">
-                                                <rect key="frame" x="35" y="933.66666666666674" width="273.66666666666669" height="27"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Zr-4v-ui0">
+                                                <rect key="frame" x="35" y="952" width="0.0" height="0.0"/>
                                                 <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1I-1b-X5J">
-                                                <rect key="frame" x="35" y="979.33333333333326" width="320" height="150"/>
-                                                <string key="text">Flood waters are generally quite toxic since they can harbor various harmful bacteria and other fecal matter. As a result, it is important to wear protective gear in the event of a house flood. Furthermore, don't turn on any light switches or unplug any electronics during a flood since there is a chance that you may be electrocuted.</string>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1I-1b-X5J">
+                                                <rect key="frame" x="35" y="970.66666666666674" width="320" height="0.0"/>
                                                 <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What if My House Floods?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGV-ln-1aU">
-                                                <rect key="frame" x="35" y="1148" width="273.66666666666669" height="27"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where do you get shelter?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGV-ln-1aU">
+                                                <rect key="frame" x="35" y="989.33333333333326" width="275.33333333333331" height="27"/>
                                                 <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZ5-DY-kat">
-                                                <rect key="frame" x="35" y="1193.6666666666667" width="320" height="150"/>
-                                                <string key="text">Flood waters are generally quite toxic since they can harbor various harmful bacteria and other fecal matter. As a result, it is important to wear protective gear in the event of a house flood. Furthermore, don't turn on any light switches or unplug any electronics during a flood since there is a chance that you may be electrocuted.</string>
+                                                <rect key="frame" x="35" y="1035" width="320" height="168.66666666666674"/>
+                                                <string key="text">If it is possible, go into a basement/inside room without windows on the lowest floor. To get extra protection get under something sturdy, cover body with a mattress or a sleeping bag, and protect the head with something reliable. During a tornado do not stay in a mobile home. If you are outside, then get into a sturdy building as soon as possible. Never ever try to outrun a tornado with a car.</string>
                                                 <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -2221,6 +2222,251 @@
             </objects>
             <point key="canvasLocation" x="1511" y="1413"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="SCl-ie-5i1">
+            <objects>
+                <viewController id="Ag6-BS-PT1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U4y-Rx-NHd">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 27" translatesAutoresizingMaskIntoConstraints="NO" id="Ulv-qn-6Dm">
+                                <rect key="frame" x="0.0" y="763" width="390" height="3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="390" id="z7G-yq-tBP"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="AFx-sN-vy2">
+                                <rect key="frame" x="34" y="774" width="322" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XNq-Ik-eg8">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" backgroundImage="Home"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rjl-au-Xkg">
+                                        <rect key="frame" x="68" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="News"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6q-ux-z3O">
+                                        <rect key="frame" x="136" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="RedGuides"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hdq-A9-BNR">
+                                        <rect key="frame" x="204" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="Maps"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L65-hT-heU">
+                                        <rect key="frame" x="272" y="0.0" width="50" height="50"/>
+                                        <state key="normal" backgroundImage="Settings"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="2RV-1f-HtZ"/>
+                                </constraints>
+                            </stackView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rlD-Np-wXO">
+                                <rect key="frame" x="0.0" y="147" width="390" height="616"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AI7-AD-y4c">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="2400"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Volcano" translatesAutoresizingMaskIntoConstraints="NO" id="vr9-zI-Kxk">
+                                                <rect key="frame" x="34.666666666666657" y="8" width="321" height="171"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="321" id="E45-ty-VYG"/>
+                                                    <constraint firstAttribute="height" constant="171" id="G80-3I-3JW"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is a Volcano?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sas-JU-H4n">
+                                                <rect key="frame" x="34" y="207" width="196" height="27"/>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Items needed in case of a Volcano" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PN8-72-G3M">
+                                                <rect key="frame" x="34" y="506.33333333333337" width="350.66666666666669" height="27"/>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2pV-Ha-4wf">
+                                                <rect key="frame" x="35" y="244" width="320" height="243.66666666666663"/>
+                                                <string key="text">A volcano is an opening in a planet or moon’s crust through which molten rock, hot gases, and other materials erupt. Volcanoes often form a hill or mountain as layers of rock and ash build up from repeated eruptions. Volcanoes are classified as active, dormant, or extinct. Active volcanoes have a recent history of eruptions; they are likely to erupt again. Dormant volcanoes have not erupted for a very long time but may erupt at a future time. Extinct volcanoes are not expected to erupt in the future.
+</string>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQp-ZP-b0C">
+                                                <rect key="frame" x="35" y="543.33333333333337" width="320" height="150"/>
+                                                <string key="text">In the case of a volcano you would need a flashlight and extra batteries, a first aid kit and manual, emergency food and water, manual (nonelectric) can opener, essential medicines, sturdy shoes, respiratory (breathing) protection, eye protection (goggles), and battery-powered radio for your emergency kit. </string>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="volcanoes extra" translatesAutoresizingMaskIntoConstraints="NO" id="rKe-w1-h6i">
+                                                <rect key="frame" x="34.666666666666657" y="716.33333333333337" width="321" height="171"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="321" id="I3g-8G-exC"/>
+                                                    <constraint firstAttribute="height" constant="171" id="YU2-ZB-Gqg"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Preparing and Evacuating an area" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUj-ec-AfR">
+                                                <rect key="frame" x="35" y="915.33333333333326" width="348" height="27"/>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="32k-3W-dGf">
+                                                <rect key="frame" x="35" y="952.33333333333326" width="320" height="487"/>
+                                                <string key="text">To prepare for a evacuate of a volcano tune in the radio or television for volcano updates, listen for disaster sirens and warning signals, review your emergency plan and gather your emergency supplies, and also be sure to pack at least a 1-week supply of prescription medications, fill your vehicle’s gas tank (if you do not have a vehicle then make arrangements with friends or family for transportation or follow authority instructions to gain access to transportation). Also, put livestock in an enclosed area, plan ahead to take pets with you (many emergency shelters cannot accept animals), fill your clean water containers, adjust the thermostat on refrigerators and freezers to the coolest possible temperature (the food will not go bad as fast). During an evacuation, take only essential items with you, if you have time, turn off the gas, electricity, and water (try to disconnect your electrical appliances as they might shock you while you restore the electricty), make sure your automobile’s emergency kit is ready. Lastly, follow designated evacuation routes—others may be blocked—and expect heavy traffic and delays.</string>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jby-tC-khN">
+                                                <rect key="frame" x="35" y="1458" width="0.0" height="0.0"/>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yxx-JH-kwQ">
+                                                <rect key="frame" x="35" y="1476.6666666666667" width="320" height="0.0"/>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What to do if you are staying put?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ig-xe-pYg">
+                                                <rect key="frame" x="35" y="1495.3333333333333" width="349.33333333333331" height="27"/>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBw-TD-X6O">
+                                                <rect key="frame" x="35" y="1541" width="320" height="206"/>
+                                                <string key="text">First, close and lock all windows and outside doors, turn off all heating and air conditioning systems and fans, close the fireplace damper (as ash might come in through this), organize your emergency supplies and make sure household members know where the supplies are, make sure the radio is working, go to an interior room without windows that is above ground level. Also, bring your pets with you, and be sure to bring additional food and water supplies for them.</string>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you are outside during a volcano" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CsU-2V-tO4">
+                                                <rect key="frame" x="35" y="1765.6666666666667" width="354.33333333333331" height="27"/>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H2h-Zg-YcD">
+                                                <rect key="frame" x="35" y="1811.3333333333333" width="320" height="243.66666666666674"/>
+                                                <string key="text">Try to find shelter indoors.
+If you are caught in a rockfall, roll into a ball to protect your head. Also if near a stream or river, be aware of rising water and possible mudflows in low-lying areas (move up-slope as quickly as possible). If you get burnt then get medical help since ith might be life saving.
+If your eyes, nose, and throat become irritated from volcanic gases and fumes, move away from the area immediately. Your symptoms should go away when you are no longer in contact with the gases or fumes. If the symptoms continue, consult your doctor.</string>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Protecting yourself against ashfall" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PgR-i8-GhD">
+                                                <rect key="frame" x="35" y="2073.6666666666665" width="354.33333333333331" height="27"/>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Medium" family="TT Norms Pro" pointSize="23"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FEr-tT-eZ6">
+                                                <rect key="frame" x="35" y="2119" width="320" height="260"/>
+                                                <mutableString key="text">Stay inside, if possible, with windows and doors closed.
+Wear long-sleeved shirts and long pants. Use goggles to protect your eyes. If ash is continually falling, you may not be able to shelter indoors for more than a few hours, because the weight of the ash could collapse the roof of your building and block air intakes into the building. Listen to authorities for advice on leaving the area when ashfall lasts more than a few hours.
+Exposure to ash can harm your health, particularly the respiratory (breathing) tract. To protect yourself while you are outdoors or while you are cleaning up ash that has gotten indoors, a disposable particulate respirator (also known as an “air purifying respirator”) may be considered. An N-95 respirator is the most common type of disposable particulate respirator and can be purchased at businesses such as hardware stores. It is important to follow directions for proper use of this respirator. Keep your car or truck engine switched off. Avoid driving in heavy ashfall. Driving will stir up ash that can clog engines and stall vehicles. If you do have to drive, keep the car windows up and do not operate the air conditioning system. Operating the air conditioning system will bring in outside air and ash.
+</mutableString>
+                                                <fontDescription key="fontDescription" name="TTNormsPro-Light" family="TT Norms Pro" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="CsU-2V-tO4" firstAttribute="top" secondItem="CBw-TD-X6O" secondAttribute="bottom" constant="18.670000000000002" id="0Zz-vB-3Jy"/>
+                                            <constraint firstAttribute="trailing" secondItem="32k-3W-dGf" secondAttribute="trailing" constant="35" id="2QO-Nc-vfs"/>
+                                            <constraint firstItem="sQp-ZP-b0C" firstAttribute="leading" secondItem="AI7-AD-y4c" secondAttribute="leading" constant="35" id="4B8-5O-7ln"/>
+                                            <constraint firstAttribute="trailing" secondItem="H2h-Zg-YcD" secondAttribute="trailing" constant="35" id="5tI-Op-t8j"/>
+                                            <constraint firstItem="CsU-2V-tO4" firstAttribute="leading" secondItem="AI7-AD-y4c" secondAttribute="leading" constant="35" id="8Zf-u7-xIP"/>
+                                            <constraint firstItem="Yxx-JH-kwQ" firstAttribute="top" secondItem="jby-tC-khN" secondAttribute="bottom" constant="18.670000000000002" id="Czi-3r-iMc"/>
+                                            <constraint firstItem="32k-3W-dGf" firstAttribute="top" secondItem="UUj-ec-AfR" secondAttribute="bottom" constant="10" id="DSd-ab-JLo"/>
+                                            <constraint firstItem="sQp-ZP-b0C" firstAttribute="top" secondItem="PN8-72-G3M" secondAttribute="bottom" constant="10" id="Dav-Sc-ome"/>
+                                            <constraint firstItem="vr9-zI-Kxk" firstAttribute="top" secondItem="AI7-AD-y4c" secondAttribute="top" constant="8" id="Gf4-f7-H77"/>
+                                            <constraint firstItem="PN8-72-G3M" firstAttribute="leading" secondItem="sas-JU-H4n" secondAttribute="leading" id="HAF-3k-ldT"/>
+                                            <constraint firstItem="Yxx-JH-kwQ" firstAttribute="leading" secondItem="AI7-AD-y4c" secondAttribute="leading" constant="35" id="HTu-aB-ZuR"/>
+                                            <constraint firstAttribute="trailing" secondItem="2pV-Ha-4wf" secondAttribute="trailing" constant="35" id="LBP-Ey-kUP"/>
+                                            <constraint firstItem="CBw-TD-X6O" firstAttribute="leading" secondItem="AI7-AD-y4c" secondAttribute="leading" constant="35" id="M0e-yl-8ui"/>
+                                            <constraint firstItem="vr9-zI-Kxk" firstAttribute="centerX" secondItem="AI7-AD-y4c" secondAttribute="centerX" id="MSE-tO-2yv"/>
+                                            <constraint firstItem="H2h-Zg-YcD" firstAttribute="top" secondItem="CsU-2V-tO4" secondAttribute="bottom" constant="18.670000000000002" id="Ofw-f1-qzC"/>
+                                            <constraint firstItem="jby-tC-khN" firstAttribute="top" secondItem="32k-3W-dGf" secondAttribute="bottom" constant="18.667000000000002" id="Oqm-ax-jtC"/>
+                                            <constraint firstItem="sas-JU-H4n" firstAttribute="top" secondItem="vr9-zI-Kxk" secondAttribute="bottom" constant="28" id="RLO-mD-UFs"/>
+                                            <constraint firstItem="rKe-w1-h6i" firstAttribute="centerX" secondItem="AI7-AD-y4c" secondAttribute="centerX" id="TzG-W3-AZp"/>
+                                            <constraint firstAttribute="trailing" secondItem="CBw-TD-X6O" secondAttribute="trailing" constant="35" id="ZfD-V0-qWY"/>
+                                            <constraint firstItem="32k-3W-dGf" firstAttribute="leading" secondItem="AI7-AD-y4c" secondAttribute="leading" constant="35" id="drd-HP-ix8"/>
+                                            <constraint firstItem="CBw-TD-X6O" firstAttribute="top" secondItem="1ig-xe-pYg" secondAttribute="bottom" constant="18.670000000000002" id="eHl-3W-S0u"/>
+                                            <constraint firstItem="PgR-i8-GhD" firstAttribute="top" secondItem="H2h-Zg-YcD" secondAttribute="bottom" constant="18.670000000000002" id="emQ-bh-ppB"/>
+                                            <constraint firstItem="1ig-xe-pYg" firstAttribute="leading" secondItem="AI7-AD-y4c" secondAttribute="leading" constant="35" id="g0U-MZ-PXV"/>
+                                            <constraint firstItem="2pV-Ha-4wf" firstAttribute="leading" secondItem="AI7-AD-y4c" secondAttribute="leading" constant="35" id="gjy-Q6-DWL"/>
+                                            <constraint firstAttribute="trailing" secondItem="sQp-ZP-b0C" secondAttribute="trailing" constant="35" id="hY4-jM-aTC"/>
+                                            <constraint firstItem="rKe-w1-h6i" firstAttribute="top" secondItem="sQp-ZP-b0C" secondAttribute="bottom" constant="23" id="jVA-8l-kUX"/>
+                                            <constraint firstItem="PN8-72-G3M" firstAttribute="top" secondItem="2pV-Ha-4wf" secondAttribute="bottom" constant="18.666666666666629" id="l6r-TP-5ed"/>
+                                            <constraint firstItem="jby-tC-khN" firstAttribute="leading" secondItem="AI7-AD-y4c" secondAttribute="leading" constant="35" id="mPx-xD-oGj"/>
+                                            <constraint firstItem="1ig-xe-pYg" firstAttribute="top" secondItem="Yxx-JH-kwQ" secondAttribute="bottom" constant="18.670000000000002" id="oVH-GM-q3T"/>
+                                            <constraint firstItem="UUj-ec-AfR" firstAttribute="top" secondItem="rKe-w1-h6i" secondAttribute="bottom" constant="28" id="p40-QC-L6p"/>
+                                            <constraint firstAttribute="height" constant="3000" id="p4Z-vV-SJf"/>
+                                            <constraint firstItem="sas-JU-H4n" firstAttribute="leading" secondItem="AI7-AD-y4c" secondAttribute="leading" constant="34" id="qfl-Lt-4HW"/>
+                                            <constraint firstItem="FEr-tT-eZ6" firstAttribute="top" secondItem="PgR-i8-GhD" secondAttribute="bottom" constant="18.670000000000002" id="sr2-HI-ogq"/>
+                                            <constraint firstItem="H2h-Zg-YcD" firstAttribute="leading" secondItem="AI7-AD-y4c" secondAttribute="leading" constant="35" id="yYb-sg-z7N"/>
+                                            <constraint firstItem="UUj-ec-AfR" firstAttribute="leading" secondItem="AI7-AD-y4c" secondAttribute="leading" constant="35" id="zEY-Hb-ZTn"/>
+                                            <constraint firstAttribute="trailing" secondItem="Yxx-JH-kwQ" secondAttribute="trailing" constant="35" id="zZZ-TM-arR"/>
+                                            <constraint firstItem="2pV-Ha-4wf" firstAttribute="top" secondItem="sas-JU-H4n" secondAttribute="bottom" constant="10" id="zsD-wE-mqx"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="AI7-AD-y4c" secondAttribute="bottom" id="Nnf-F9-zx3"/>
+                                    <constraint firstAttribute="trailing" secondItem="AI7-AD-y4c" secondAttribute="trailing" id="o5b-so-hpj"/>
+                                    <constraint firstItem="AI7-AD-y4c" firstAttribute="leading" secondItem="rlD-Np-wXO" secondAttribute="leading" id="tJD-pq-9yS"/>
+                                    <constraint firstItem="AI7-AD-y4c" firstAttribute="top" secondItem="rlD-Np-wXO" secondAttribute="top" id="vFY-TZ-Tet"/>
+                                </constraints>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLx-H6-PSv">
+                                <rect key="frame" x="34" y="58" width="62" height="22"/>
+                                <state key="normal" image="􀆉 BACK"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Volcanoes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwo-7i-QQF">
+                                <rect key="frame" x="34" y="97" width="144" height="35.333333333333343"/>
+                                <fontDescription key="fontDescription" name="TTNormsPro-Bold" family="TT Norms Pro" pointSize="30"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eKt-C2-9BD"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rlD-Np-wXO" firstAttribute="top" secondItem="dwo-7i-QQF" secondAttribute="top" constant="50" id="0J4-hG-tbB"/>
+                            <constraint firstItem="gLx-H6-PSv" firstAttribute="top" secondItem="U4y-Rx-NHd" secondAttribute="top" constant="58" id="BZY-ee-Urv"/>
+                            <constraint firstItem="Ulv-qn-6Dm" firstAttribute="centerX" secondItem="U4y-Rx-NHd" secondAttribute="centerX" id="FqU-8k-cJW"/>
+                            <constraint firstItem="AFx-sN-vy2" firstAttribute="centerX" secondItem="U4y-Rx-NHd" secondAttribute="centerX" id="GLF-ZT-H1g"/>
+                            <constraint firstAttribute="bottom" secondItem="AFx-sN-vy2" secondAttribute="bottom" constant="20" symbolic="YES" id="Is5-pi-tMp"/>
+                            <constraint firstItem="dwo-7i-QQF" firstAttribute="leading" secondItem="eKt-C2-9BD" secondAttribute="leading" constant="34" id="PM8-jb-eKL"/>
+                            <constraint firstItem="gLx-H6-PSv" firstAttribute="leading" secondItem="eKt-C2-9BD" secondAttribute="leading" constant="34" id="UXQ-Nm-AK3"/>
+                            <constraint firstItem="rlD-Np-wXO" firstAttribute="trailing" secondItem="eKt-C2-9BD" secondAttribute="trailing" id="VVB-aq-pRh"/>
+                            <constraint firstItem="rlD-Np-wXO" firstAttribute="leading" secondItem="eKt-C2-9BD" secondAttribute="leading" id="VbK-nv-hwF"/>
+                            <constraint firstItem="AI7-AD-y4c" firstAttribute="width" secondItem="U4y-Rx-NHd" secondAttribute="width" id="dGm-p9-LJd"/>
+                            <constraint firstItem="AFx-sN-vy2" firstAttribute="top" secondItem="Ulv-qn-6Dm" secondAttribute="bottom" constant="8" symbolic="YES" id="hXH-OB-gjh"/>
+                            <constraint firstItem="dwo-7i-QQF" firstAttribute="top" secondItem="gLx-H6-PSv" secondAttribute="bottom" constant="17" id="hmr-dA-G2T"/>
+                            <constraint firstItem="Ulv-qn-6Dm" firstAttribute="top" secondItem="rlD-Np-wXO" secondAttribute="bottom" id="pN5-PD-oz3"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="390" height="844"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YYB-rC-G0p" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2509.2307692307691" y="696.6824644549763"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="M2L-eP-hWo"/>
@@ -2236,6 +2482,7 @@
         <image name="Hurricane" width="2048" height="1536"/>
         <image name="HurricaneStorm" width="1280" height="853"/>
         <image name="IMG_3135" width="501" height="501"/>
+        <image name="Items for tornado" width="1600" height="1063"/>
         <image name="Loading" width="224" height="133"/>
         <image name="Logo" width="78" height="78"/>
         <image name="Maps" width="50" height="50"/>
@@ -2251,8 +2498,10 @@
         <image name="Settings Options" width="350.66665649414062" height="150"/>
         <image name="Street" width="350" height="200"/>
         <image name="TornadoBackground" width="350" height="200"/>
+        <image name="Volcano" width="1620" height="1080"/>
         <image name="arrowshape.turn.up.left.fill" catalog="system" width="128" height="106"/>
         <image name="floodhouse" width="350" height="200"/>
+        <image name="volcanoes extra" width="1600" height="1051"/>
         <image name="􀆉 BACK" width="62" height="16"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
