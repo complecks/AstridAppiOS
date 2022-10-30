@@ -6,19 +6,19 @@ The exception to this policy is that a link to this GitHub may be shared by part
 
 Lead Developers and Primary Contributors:
 
--Harshith Sadhu - Lead iOS Developer and Project Manager, Primary iOS Contributor;
+-Harshith Sadhu - Lead iOS Developer and Project Manager, Primary iOS Contributor
 
--Aaban Moiz - Lead Backend Developer and Project Manager, Primary Backend Contributor;
+-Aaban Moiz - Lead Backend Developer and Project Manager, Primary Backend Contributor
 
 -
 
 iOS Programming and Development Team:
 
--Tanish Shah;
+-Tanish Shah
 
--Aikataan Sinha;
+-Aikataan Sinha
 
--Pranav Sundar;
+-Pranav Sundar
 
 -
 
