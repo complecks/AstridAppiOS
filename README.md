@@ -16,12 +16,14 @@ Lead Developers and Primary Contributors:
 
 iOS Programming and Development Team:
 
+-Harshith Sadhu
+
+-Aaban Moiz
+
 -Tanish Shah
 
 -Aikataan Sinha
 
 -Pranav Sundar
 
--
-
-App Concept Created By: Aaban Moiz, Harshith Sadhu, Piyush Hole, Aikataan Sinha, and Abhay Akkapedi
+-App Concept Created By: Aaban Moiz, Harshith Sadhu, Piyush Hole, Aikataan Sinha, and Abhay Akkapedi
